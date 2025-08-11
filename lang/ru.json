@@ -389,8 +389,8 @@
       },
       "DeathMove": {
         "selectMove": "Выберите приём",
-        "takeMove": "Взять Смертельный приём",
-        "title": "{actor} — Смертельный приём"
+        "takeMove": "Выполнить предсмертный ход",
+        "title": "{actor} — предсмертный ход"
       },
       "Downtime": {
         "longRest": {
@@ -859,159 +859,159 @@
         }
       },
       "BeastformType": {
-        "normal": "Normal",
-        "evolved": "Evolved",
-        "hybrid": "Hybrid"
+        "normal": "Обычный",
+        "evolved": "Эволюционировавший",
+        "hybrid": "Гибридный"
       },
       "Burden": {
-        "oneHanded": "One-Handed",
-        "twoHanded": "Two-Handed"
+        "oneHanded": "Одноручное",
+        "twoHanded": "Двуручное"
       },
       "RangeInclusion": {
-        "withinRange": "Within Range",
-        "outsideRange": "Outside Range"
+        "withinRange": "В пределах дистанции",
+        "outsideRange": "Вне дистанции"
       },
       "Condition": {
         "dead": {
-          "name": "Dead",
-          "description": "The character is dead"
+          "name": "Мёртв",
+          "description": "Персонаж мёртв."
         },
         "hidden": {
-          "name": "Hidden",
-          "description": "While Hidden, attacks cannot be made directly targeting them nd any rolls against them are at disadvantage.\nWhen a Hidden creature moves or attacks, they are no longer Hidden. However, if a creature is Hidden when they begin making an attack, the roll has advantage; the Hidden condition isn’t cleared until after the attack is resolved."
+          "name": "Скрытый",
+          "description": "Пока существо находится в состоянии Скрытый, по нему нельзя совершать атаки напрямую, а все броски против него совершаются с помехой.\nКогда скрытое существо перемещается или атакует, оно перестаёт быть Скрытым. Однако, если существо было Скрыто в момент начала атаки, бросок совершается с преимуществом; состояние Скрытности снимается только после завершения атаки."
         },
         "restrained": {
-          "name": "Restrained",
-          "description": "When an effect makes a creature Restrained, it means they cannot move until this condition is cleared.\nThey can still take actions from their current position."
+          "name": "Скован",
+          "description": "Если эффект накладывает состояние Скован, это значит, что существо не может перемещаться, пока это состояние не будет снято.\nОно всё ещё может выполнять действия из своего текущего положения."
         },
         "unconcious": {
-          "name": "Unconcious",
-          "description": "Your character can’t move or act while unconscious, they can’t be targeted by an attack."
+          "name": "Без сознания",
+          "description": "Ваш персонаж не может двигаться или действовать, находясь без сознания, он не может стать целью атаки."
         },
         "vulnerable": {
-          "name": "Vulnerable",
-          "description": "While a creature is Vulnerable, all rolls targeting them have advantage.\nA creature who is already Vulnerable can’t be made to take the condition again."
+          "name": "Уязвим",
+          "description": "Пока существо Уязвимо, все броски по нему совершаются с преимуществом.\nСущество находящееся в этом состоянии, не может получить его снова."
         }
       },
       "CountdownType": {
-        "spotlight": "Spotlight",
+        "spotlight": "Активация",
         "custom": "Custom",
-        "characterAttack": "Character Attack"
+        "characterAttack": "Атака персонажа"
       },
       "DamageType": {
         "physical": {
-          "name": "Physical",
-          "abbreviation": "Phy"
+          "name": "Физический",
+          "abbreviation": "Физ"
         },
         "magical": {
-          "name": "Magical",
-          "abbreviation": "Mag"
+          "name": "Магический",
+          "abbreviation": "Маг"
         }
       },
       "DeathMoves": {
         "avoidDeath": {
-          "name": "Avoid Death",
-          "description": "You drop unconscious temporarily and work with the GM to describe how the situation gets much worse because of it. Then roll your Fear die; if its value is equal to or under your Level, take a Scar."
+          "name": "Избежать смерти",
+          "description": "Вы временно теряете сознание и вместе с Мастером описываете, как из-за этого ситуация становится намного хуже. Затем бросьте кость страха; если её значение меньше или равно вашему уровню, получите Шрам."
         },
         "riskItAll": {
-          "name": "Risk It All",
-          "description": "Roll your Duality Dice. If Hope is higher, you stay on your feet and clear an amount of Hit Points and/or Stress equal to the value of the Hope die (divide the Hope die value up between these however you’d prefer). If your Fear die is higher, you cross through the veil of death. If the Duality Dice are tied, you stay on your feet and clear all Hit Points and Stress."
+          "name": "Поставить всё на кон",
+          "description": "Бросьте кости Дуализма. Если Надежда выше, вы остаётесь на ногах и восстанавливаете количество Очков здоровья и/или Стресса, равное значению кости Надежды (разделите это значение между ними по своему желанию). Если кость Страха выше, вы переходите за завесу смерти. Если кости дуализма равны, вы остаетесь на ногах и полностью восстанавливаете все Очки здоровья и Стресс."
         },
         "blazeOfGlory": {
-          "name": "Blaze Of Glory",
-          "description": "With Blaze of Glory, the player is accepting death for the character. Take one action (at GM discretion), which becomes an automatic critical success, then cross through the veil of death."
+          "name": "В огне славы",
+          "description": "В огне славы игрок принимает смерть персонажа. Совершите одно действие (по усмотрению Мастера), которое автоматически станет критическим успехом, а затем перейдите за завесу смерти."
         }
       },
       "DomainCardTypes": {
-        "ability": "Ability",
-        "spell": "Spell",
-        "grimoire": "Grimoire"
+        "ability": "Способность",
+        "spell": "Заклинание",
+        "grimoire": "Гримуар"
       },
       "EnvironmentType": {
         "exploration": {
-          "label": "Exploration",
+          "label": "Исследование",
           "description": ""
         },
         "social": {
-          "label": "Social",
+          "label": "Социальный",
           "description": ""
         },
         "traversal": {
-          "label": "Traversal",
+          "label": "Путешествие",
           "description": ""
         },
         "event": {
-          "label": "Event",
+          "label": "Преграда",
           "description": ""
         }
       },
       "Gold": {
-        "title": "Gold",
-        "coins": "Coins",
-        "handfuls": "Handfuls",
-        "bags": "Bags",
-        "chests": "Chests"
+        "title": "Золото",
+        "coins": "Монеты",
+        "handfuls": "Горсти",
+        "bags": "Мешки",
+        "chests": "Сундуки"
       },
       "HealingType": {
         "hitPoints": {
-          "name": "Hit Points",
-          "abbreviation": "HP"
+          "name": "Очки здоровья",
+          "abbreviation": "ОЗ"
         },
         "stress": {
-          "name": "Stress",
+          "name": "Стресс",
           "abbreviation": "STR"
         },
         "hope": {
-          "name": "Hope",
+          "name": "Надежда",
           "abbreviation": "HO"
         },
         "armor": {
-          "name": "Armor Slot",
+          "name": "Ячейки Брони",
           "abbreviation": "AS"
         },
         "fear": {
-          "name": "Fear",
+          "name": "Страх",
           "abbreviation": "FR"
         }
       },
       "ItemResourceProgression": {
-        "increasing": "Increasing",
-        "decreasing": "Decreasing"
+        "increasing": "Увеличение",
+        "decreasing": "Уменьшение"
       },
       "ItemResourceType": {
-        "simple": "Simple",
-        "diceValue": "Dice Value"
+        "simple": "Простой",
+        "diceValue": "Значение кости"
       },
       "Range": {
         "self": {
-          "name": "Self",
-          "description": "means yourself.",
-          "short": "Self"
+          "name": "На себя",
+          "description": "означает, что эффект применяется к вам самим.\"",
+          "short": "себя"
         },
         "melee": {
-          "name": "Melee",
-          "description": "means a character is within touching distance of the target. PCs can generally touch targets up to a few feet away from them, but melee range may be greater for especially large NPCs.",
-          "short": "Melee"
+          "name": "Вплотную",
+          "description": "означает, что персонаж находится на расстоянии касания от цели. Игроки обычно могут дотянуться до цели в пределах нескольких футов, но для особенно крупных НИП дистанция «вплотную» может быть больше.",
+          "short": "Вплотную"
         },
         "veryClose": {
-          "name": "Very Close",
-          "description": "means a distance where one can see fine details of a target- within moments of reaching, if need be. This is usually anywhere from about 5-10 feet away. While in danger, a PC can usually get to anything that’s very close as part of any other action they take. Anything on a battle map that is within the shortest length of a game card (~2-3 inches) can usually be considered very close.",
-          "short": "V. Close"
+          "name": "Ближняя",
+          "description": "означает дистанцию, на которой можно различить мелкие детали цели — в пределах пары шагов, если потребуется. Обычно это около 5–10 футов. В опасной ситуации персонаж может добраться до всего, что находится на ближней дистанции, в рамках любого другого действия. На боевой карте всё, что находится в пределах самой короткой стороны игровой карты (~2-3 дюймов), обычно считается ближней дистанцией.",
+          "short": "Ближняя"
         },
         "close": {
-          "name": "Close",
-          "description": "means a distance where one can see prominent details of a target-- across a room or to a neighboring market stall, generally about 10-30 feet away. While in danger, a PC can usually get to anything that’s close as part of any other action they take. Anything on a battle map that is within the length of a standard pen or pencil (~5-6 inches) can usually be considered close.",
-          "short": "Close"
+          "name": "Средняя",
+          "description": "означает дистанцию, на которой можно различить крупные детали цели — через комнату или до соседней лавки на рынке, обычно около 10–30 футов. В опасной ситуации персонаж может добраться до всего, что находится на средней дистанции, в рамках любого другого действия. На боевой карте всё, что находится в пределах длины стандартной ручки или карандаша (~5-6 дюймов), обычно считается средней дистанцией.",
+          "short": "Средняя"
         },
         "far": {
-          "name": "Far",
-          "description": "means a distance where one can see the appearance of a person or object, but probably not in great detail-- across a small battlefield or down a large corridor. This is usually about 30-100 feet away. While under danger, a PC will likely have to make an Agility check to get here safely. Anything on a battle map that is within the length of a standard piece of paper (~10-11 inches) can usually be considered far.",
-          "short": "Far"
+          "name": "Дальняя",
+          "description": "означает дистанцию, на которой можно различить облик человека или предмета, но без мелких деталей — через небольшое поле боя или вдоль большого коридора. Обычно это около 30–100 футов. В опасной ситуации персонажу, вероятно, придётся пройти проверку Проворности, чтобы добраться сюда без вреда. На боевой карте всё, что находится в пределах длины стандартного листа бумаги (~10–11 дюймов), обычно считается дальней дистанцией.",
+          "short": "Дальняя"
         },
         "veryFar": {
-          "name": "Very Far",
-          "description": "means a distance where you can see the shape of a person or object, but probably not make outany details-- across a large battlefield or down a long street, generally about 100-300 feet away. While under danger, a PC likely has to make an Agility check to get here safely. Anything on a battle map that is beyond far distance, but still within sight of the characters can usually be considered very far.",
-          "short": "V. Far"
+          "name": "Очень дальняя",
+          "description": "означает дистанцию, на которой видна лишь форма человека или предмета, но без деталей — через большое поле боя или вдоль длинной улицы, обычно около 100–300 футов. В опасной ситуации персонажу, вероятно, придётся пройти проверку Проворности, чтобы добраться сюда без вреда. На боевой карте всё, что находится дальше дальней дистанции, но всё ещё в пределах видимости персонажей, обычно считается очень дальней.",
+          "short": "Оч. Дальняя"
         }
       },
       "RollTypes": {
@@ -1019,96 +1019,96 @@
           "name": "Атрибут"
         },
         "attack": {
-          "name": "Attack"
+          "name": "Атака"
         },
         "spellcast": {
-          "name": "SpellCast"
+          "name": "Заклинание"
         },
         "diceSet": {
-          "name": "Dice Set"
+          "name": "Набор костей"
         }
       },
       "RuleChoice": {
-        "off": "Off",
-        "offWithToggle": "Off With Toggle",
-        "on": "On",
-        "onWithToggle": "On With Toggle"
+        "off": "Выкл.",
+        "offWithToggle": "Выкл. переключатель",
+        "on": "Вкл.",
+        "onWithToggle": "Вкл. переключатель"
       },
       "SelectAction": {
-        "selectType": "Select Action Type",
-        "selectAction": "Action Selection"
+        "selectType": "Выберите тип действия",
+        "selectAction": "Выбор действия"
       },
       "TemplateTypes": {
-        "circle": "Circle",
-        "cone": "Cone",
-        "emanation": "Emanation",
-        "inFront": "In Front",
-        "rect": "Rectangle",
-        "ray": "Ray"
+        "circle": "Круг",
+        "cone": "Конус",
+        "emanation": "Эманация",
+        "inFront": "Впереди",
+        "rect": "Прямоугольник",
+        "ray": "Луч"
       },
       "Traits": {
         "agility": {
-          "name": "Agility",
+          "name": "Проворность",
           "short": "AGI",
           "verb": {
-            "sprint": "Sprint",
-            "leap": "Leap",
-            "maneuver": "Maneuver"
+            "sprint": "Рывок",
+            "leap": "Прыжок",
+            "maneuver": "Манёвр"
           }
         },
         "strength": {
-          "name": "Strength",
+          "name": "Сила",
           "short": "STR",
           "verb": {
-            "lift": "Lift",
-            "smash": "Smash",
-            "grapple": "Grapple"
+            "lift": "Поднять",
+            "smash": "Сокрушить",
+            "grapple": "Схватить"
           }
         },
         "finesse": {
-          "name": "Finesse",
+          "name": "Искусность",
           "short": "FIN",
           "verb": {
-            "control": "Control",
-            "hide": "Hide",
-            "tinker": "Tinker"
+            "control": "Контролировать",
+            "hide": "Скрываться",
+            "tinker": "Мастерить"
           }
         },
         "instinct": {
-          "name": "Instinct",
+          "name": "Инстинкт",
           "short": "INS",
           "verb": {
-            "perceive": "Perceive",
-            "sense": "Sense",
-            "navigate": "Navigate"
+            "perceive": "Воспринимать",
+            "sense": "Чувствовать",
+            "navigate": "Ориентироваться"
           }
         },
         "presence": {
-          "name": "Presence",
+          "name": "Влияние",
           "short": "PRE",
           "verb": {
-            "charm": "Charm",
-            "perform": "Perform",
-            "deceive": "Deceive"
+            "charm": "Очаровать",
+            "perform": "Выступать",
+            "deceive": "Обманывать"
           }
         },
         "knowledge": {
-          "name": "Knowledge",
+          "name": "Интеллект",
           "short": "KNO",
           "verb": {
-            "recall": "Recall",
-            "analyze": "Analyze",
-            "comprehend": "Comprehend"
+            "recall": "Вспомнить",
+            "analyze": "Анализировать",
+            "comprehend": "Понимать"
           }
         }
       },
       "WeaponFeature": {
         "barrier": {
-          "name": "Barrier",
+          "name": "Барьер",
           "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
           "effects": {
             "barrier": {
-              "name": "Barrier",
+              "name": "Барьер",
               "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion"
             }
           }
@@ -2383,7 +2383,7 @@
           "currentTarget": "Текущая"
         },
         "deathMove": {
-          "title": "Смертельный приём"
+          "title": "Предсмертный ход"
         },
         "dicePool": {
           "title": "Пул костей"
@@ -2485,7 +2485,7 @@
         "unequip": "Снять",
         "sendToVault": "Отправить в хранилище",
         "sendToLoadout": "Отправить в снаряжение",
-        "makeDeathMove": "Совершить смертельный приём",
+        "makeDeathMove": "Совершить предсмертный ход",
         "rangeAndTarget": "Дистанция и цель",
         "dragApplyEffect": "Перетащите эффект, чтобы применить его к персонажу",
         "appliedEvenIfSuccessful": "Применяется даже в случае успешного спасброска",
