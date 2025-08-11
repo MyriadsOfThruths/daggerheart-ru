@@ -288,7 +288,7 @@
           "community": "Сообщество",
           "class": "Класс",
           "experience": "Опыт",
-          "traits": "Черты",
+          "traits": "Атрибуты",
           "domainCards": "Карточки доменов"
         },
         "ancestryNamePlaceholder": "Название происхождения",
@@ -313,10 +313,10 @@
         "suggestedArmor": "Рекомендуемая броня",
         "suggestedPrimaryWeapon": "Рекомендуемое основное оружие",
         "suggestedSecondaryWeapon": "Рекомендуемое дополнительное оружие",
-        "suggestedTraits": "Рекомендуемые черты",
+        "suggestedTraits": "Рекомендуемые атрибуты",
         "suggestedWeapons": "Рекомендуемое оружие",
         "title": "{actor} — Создание персонажа",
-        "traitIncreases": "Усиление черты"
+        "traitIncreases": "Улучшение атрибутов"
       },
       "CombatTracker": {
         "combatStarted": "Активно",
@@ -363,14 +363,14 @@
           }
         },
         "newCountdown": "Новый счётчик",
-        "openOwnership": "Редактировать владельцев",
+        "openOwnership": "Изменить владельца игрока",
         "removeCountdownText": "Вы уверены, что хотите удалить счётчик: {name}?",
         "removeCountdownTitle": "Удалить счётчик",
         "title": "{type} — Счётчики",
         "toggleSimple": "Простой вид",
         "types": {
           "narrative": "Нарративный",
-          "encounter": "Сценарный"
+          "encounter": "Столкновение"
         }
       },
       "DeleteConfirmation": {
@@ -481,7 +481,7 @@
         "navigateToLevelup": "Вернуться к повышению уровня",
         "navigateToSummary": "К сводке",
         "options": {
-          "trait": "Получите +1 к двум неотмеченным чертам персонажа и отметьте их.",
+          "trait": "Получите +1 к двум неотмеченным атрибутам персонажа и отметьте их.",
           "hitPoint": "Навсегда получите одну ячейку Очков здоровья.",
           "stress": "Навсегда получите одну ячейку Стресса.",
           "experience": "Навсегда получите +1 к двум навыкам.",
@@ -518,7 +518,7 @@
           "domainCards": "Карточки доменов",
           "subclass": "Подкласс",
           "multiclass": "Мультикласс",
-          "traits": "Улучшение черты",
+          "traits": "Улучшение атрибута",
           "experienceIncreases": "Улучшение опыта",
           "damageThresholds": "Пороги урона",
           "vicious": "Свирепый",
@@ -584,276 +584,276 @@
       "AdversaryTrait": {
         "relentless": {
           "name": "Неумолимый",
-          "description": "A foe with Relentless can activate up to X times during a GM move so long as there are enough action tokens.",
-          "tip": "The Relentless move is useful if you want an adversary you can activate more than once during a single GM move. This is often best for exceedingly fast or dangerous foes, or for adversaries who are likely to be battling the party on their own."
+          "description": "Противник со свойством Неумолимый может быть активирован до X раз за ход Мастера, если имеется достаточно жетонов действий.",
+          "tip": "Свойство Неумолимый полезно, если вы хотите, чтобы противник мог активироваться более одного раза за один ход Мастера. Лучше всего это подходит для чрезвычайно быстрых или опасных противников, а также для противников, которые, вероятно, будут сражаться с группой в одиночку."
         },
         "slow": {
           "name": "Медленный",
-          "description": "A foe with Slow costs X action tokens to activate.",
-          "tip": "The Slow move is useful if you want an adversary who narratively takes longer to act than others, like a slug creature or a massive ogre. This is usually most effective when that creature is very powerful when it does act, but eats up lots of action tokens to do it."
+          "description": "Противник со свойством Медленный требует X жетонов действия для активации.",
+          "tip": "Свойство Медленный полезно, если вы хотите, чтобы противник действовал медленнее других, например, слизь или огромный огр. Обычно это наиболее эффективно, когда такое существо очень сильное, но для своих действий тратит много жетонов действия."
         },
         "minion": {
           "name": "Приспешник",
-          "description": "For every X damage a PC deals to this adversary, they also deal 1 HP to an additional minion within their attack’s range.",
-          "tip": "The Minion move is useful when you want to drop lots of small enemies into the battlefield, knowing the party can swing through them very easily. This move means that if a PC hits one minion and they do enough damage, they also hit a number of others that are in range for them. Because of this, it’s often best to have minions crowd a PC–it will feel overwhelming and dangerous until they’re able to make an attack against them. If you want that cinematic feeling of the PCs taking out waves of enemies with a single attack roll, minions are a great tool to make that happen."
+          "description": "За каждые X единиц урона, нанесенных этому противнику персонажем, он также наносит 1 единицу урона еще одному приспешнику в пределах дальности атаки.",
+          "tip": "Свойство Приспешник полезно, когда вы хотите выпустить на поле боя множество мелких противников, зная, что группа может очень легко с ними справиться. Это свойство означает, что если персонаж поражает одного приспешника и наносит ему достаточно урона, он также поражает и других приспешников, находящихся в пределах досягаемости. Из-за этого часто лучше, чтобы приспешники окружали персонажа — это будет выглядеть устрашающе и опасно, пока персонаж не сможет нанести им удар. Если вы хотите создать кинематографический эффект, когда персонажи уничтожают волны врагов одним броском кости, приспешники — отличный инструмент для этого."
         }
       },
       "AdversaryType": {
         "bruiser": {
           "label": "Громила",
-          "description": "Tough adversaries with powerful attacks."
+          "description": "Сильные противники с мощными атаками."
         },
         "horde": {
           "label": "Орда",
-          "description": "A Horde represents a number of foes working in a group."
+          "description": "Орда представляет собой группу врагов, действующих сообща."
         },
         "leader": {
           "label": "Лидер",
-          "description": "Adversaries that command and summon other adversaries."
+          "description": "Противники, которые командуют и призывают других противников."
         },
         "minion": {
           "label": "Приспешник",
-          "description": "Basic enemies that are easily dispatched but dangerous in numbers."
+          "description": "Обычные враги, которых легко уничтожить, но которые опасны, когда их много."
         },
         "ranged": {
           "label": "Стрелок",
-          "description": "Adversaries that attack from a distance."
+          "description": "Противники, атакующие с расстояния."
         },
         "skulk": {
           "label": "Скрытный",
-          "description": "Adversaries that maneuver and exploit opportunities to ambush their opponents."
+          "description": "Противники, которые маневрируют и используют возможность, чтобы устроить засаду своим оппонентам."
         },
         "social": {
           "label": "Социальный",
-          "description": "Adversaries that are primarily interpersonal threats or challenges."
+          "description": "Противники, которые в первую очередь представляют межличностную угрозу или вызов."
         },
         "solo": {
           "label": "Одиночка",
-          "description": "Designed to present a challenge to a whole party."
+          "description": "Рассчитан на создание вызова для всей группы."
         },
         "standard": {
           "label": "Рядовой",
-          "description": "Rank and File adversaries."
+          "description": "Простые противники."
         },
         "support": {
           "label": "Поддержка",
-          "description": "Enemies that enhance their allies and/or disrupt their opponents."
+          "description": "Враги, которые усиливают своих союзников и/или мешают своим противникам."
         }
       },
       "ArmorFeature": {
         "burning": {
           "name": "Горящая",
-          "description": "When an adversary attacks you within Melee range, they mark a Stress.",
+          "description": "Когда противник атакует вас вплотную, он получает Стресс.",
           "actions": {
             "burn": {
               "name": "Горящая",
-              "description": "When an adversary attacks you within Melee range, they mark a Stress."
+              "description": "Когда противник атакует вас вплотную, он получает Стресс."
             }
           }
         },
         "channeling": {
           "name": "Проводящая",
-          "description": "+1 to Spellcast Rolls",
+          "description": "+1 к броскам заклинаний",
           "effects": {
             "channeling": {
               "name": "Проводящая",
-              "description": "+1 to Spellcast Rolls"
+              "description": "+1 к броскам заклинаний"
             }
           }
         },
         "difficult": {
           "name": "Тяжёлая",
-          "description": "-1 to all character traits and Evasion",
+          "description": "−1 ко всем атрибутам и Уклонению",
           "effects": {
             "difficult": {
               "name": "Тяжёлая",
-              "description": "-1 to all character traits and Evasion"
+              "description": "−1 ко всем атрибутам и Уклонению"
             }
           }
         },
         "flexible": {
           "name": "Эластичная",
-          "description": "+1 to Evasion",
+          "description": "+1 к Уклонению",
           "effects": {
             "flexible": {
               "name": "Эластичная",
-              "description": "+1 to Evasion"
+              "description": "+1 к Уклонению"
             }
           }
         },
         "fortified": {
           "name": "Укреплённая",
-          "description": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.",
+          "description": "Когда вы тратите ячейку Брони, вы снижаете степень урона на два порога вместо одного.",
           "effects": {
             "fortified": {
               "name": "Укреплённая",
-              "description": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one."
+              "description": "Когда вы тратите ячейку Брони, вы снижаете степень урона на два порога вместо одного."
             }
           }
         },
         "gilded": {
           "name": "Позолоченная",
-          "description": "+1 to Presence",
+          "description": "+1 к Влиянию",
           "effects": {
             "gilded": {
               "name": "Позолоченная",
-              "description": "+1 to Presence"
+              "description": "+1 к Влиянию"
             }
           }
         },
         "heavy": {
           "name": "Тяжёлая",
-          "description": "-1 to Evasion",
+          "description": "−1 к Уклонению",
           "effects": {
             "heavy": {
               "name": "Тяжёлая",
-              "description": "-1 to Evasion"
+              "description": "−1 к Уклонению"
             }
           }
         },
         "hopeful": {
           "name": "Обнадёживающая",
-          "description": "When you would spend a Hope, you can mark an Armor Slot instead.",
+          "description": "Каждый раз, когда вам необходимо потратить Надежду, вы можете вместо этого потратить ячейку Брони.",
           "actions": {
             "hope": {
               "name": "Обнадёживающая",
-              "description": "When you would spend a Hope, you can mark an Armor Slot instead."
+              "description": "Каждый раз, когда вам необходимо потратить Надежду, вы можете вместо этого потратить ячейку Брони."
             }
           }
         },
         "impenetrable": {
           "name": "Непробиваемая",
-          "description": "Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress.",
+          "description": "Один раз до конца короткого отдыха, когда вы должны получить свою последнюю Рану, вы можете вместо этого получить Стресс",
           "actions": {
             "impenetrable": {
               "name": "Непробиваемая",
-              "description": "Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress."
+              "description": "Один раз до конца короткого отдыха, когда вы должны получить свою последнюю Рану, вы можете вместо этого получить Стресс"
             }
           }
         },
         "magical": {
           "name": "Магическая",
-          "description": "You can't mark an Armor Slot to reduce physical damage.",
+          "description": "Вы не можете потратить ячейку Брони, чтобы снизить физический урон.",
           "effects": {
             "magical": {
               "name": "Магическая",
-              "description": "You can't mark an Armor Slot to reduce physical damage."
+              "description": "Вы не можете потратить ячейку Брони, чтобы снизить физический урон."
             }
           }
         },
         "painful": {
           "name": "Болезненная",
-          "description": "Each time you mark an Armor Slot, you must mark a Stress.",
+          "description": "Каждый раз, когда вы тратите ячейку Брони, вы должны получить Стресс.",
           "actions": {
             "pain": {
               "name": "Болезненная",
-              "description": "Each time you mark an Armor Slot, you must mark a Stress."
+              "description": "Каждый раз, когда вы тратите ячейку Брони, вы должны получить Стресс."
             }
           }
         },
         "physical": {
           "name": "Физическая",
-          "description": "You can't mark an Armor Slot to reduce magic damage.",
+          "description": "Вы не можете потратить ячейку Брони, чтобы снизить магический урон.",
           "effects": {
             "physical": {
               "name": "Физическая",
-              "description": "You can't mark an Armor Slot to reduce magic damage."
+              "description": "Вы не можете потратить ячейку Брони, чтобы снизить магический урон."
             }
           }
         },
         "quiet": {
           "name": "Бесшумная",
-          "description": "You gain a +2 bonus to rolls you make to move silently.",
+          "description": "Вы получаете бонус +2 на броски для тихого перемещения.",
           "actions": {
             "quiet": {
               "name": "Бесшумная",
-              "description": "You gain a +2 bonus to rolls you make to move silently."
+              "description": "Вы получаете бонус +2 на броски для тихого перемещения."
             }
           }
         },
         "reinforced": {
           "name": "Усиленная",
-          "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.",
+          "description": "Когда вы отмечаете последнюю ячейку Брони, увеличьте свои пороги урона на +2, пока не восстановите хотя бы 1 ячейку Брони.",
           "actions": {
             "reinforce": {
               "name": "Усиленная",
-              "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+              "description": "Когда вы отмечаете последнюю ячейку Брони, увеличьте свои пороги урона на +2, пока не восстановите хотя бы 1 ячейку Брони."
             }
           },
           "effects": {
             "reinforced": {
               "name": "Усиленная",
-              "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
+              "description": "Когда вы отмечаете последнюю ячейку Брони, увеличьте свои пороги урона на +2, пока не восстановите хотя бы 1 ячейку Брони."
             }
           }
         },
         "resilient": {
           "name": "Устойчивая",
-          "description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
+          "description": "Перед тем как потратить последнюю ячейку Брони, бросьте d6. Если выпало 6, снизьте входящий урон на один порог, не тратя ячейку Брони.",
           "actions": {
             "resilient": {
               "name": "Устойчивая",
-              "description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot."
+              "description": "Перед тем как потратить последнюю ячейку Брони, бросьте d6. Если выпало 6, снизьте входящий урон на один порог, не тратя ячейку Брони."
             }
           }
         },
         "sharp": {
           "name": "Острая",
-          "description": "On a successful attack against a target within Melee range, add a d4 to the damage roll.",
+          "description": "При успешной атаке по находящейся вплотную цели добавьте d4 к броску урона.",
           "effects": {
             "sharp": {
               "name": "Острая",
-              "description": "On a successful attack against a target within Melee range, add a d4 to the damage roll."
+              "description": "При успешной атаке по находящейся вплотную цели добавьте d4 к броску урона."
             }
           }
         },
         "shifting": {
           "name": "Скользящая",
-          "description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.",
+          "description": "Когда вы становитесь целью атаки, вы можете потратить ячейку Брони, чтобы этот бросок атаки совершался против вас с помехой.",
           "actions": {
             "shift": {
               "name": "Скользящая",
-              "description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage."
+              "description": "Когда вы становитесь целью атаки, вы можете потратить ячейку Брони, чтобы этот бросок атаки совершался против вас с помехой."
             }
           }
         },
         "timeslowing": {
           "name": "Замедление времени",
-          "description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.",
+          "description": "Потратьте ячейку Брони, чтобы бросить d4 и прибавить результат к Уклонению против входящей атаки.",
           "actions": {
             "slowTime": {
               "name": "Замедление времени",
-              "description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack."
+              "description": "Потратьте ячейку Брони, чтобы бросить d4 и прибавить результат к Уклонению против входящей атаки."
             }
           }
         },
         "truthseeking": {
           "name": "Разоблачающая",
-          "description": "This armor glows when another creature within Close range tells a lie.",
+          "description": "Эта броня светится, когда другое существо в пределах средней дистанции лжёт.",
           "actions": {
             "truthseeking": {
               "name": "Разоблачающая",
-              "description": "This armor glows when another creature within Close range tells a lie."
+              "description": "Эта броня светится, когда другое существо в пределах средней дистанции лжёт."
             }
           }
         },
         "veryHeavy": {
           "name": "Очень тяжёлая",
-          "description": "-2 to Evasion; -1 to Agility",
+          "description": "−2 к Уклонению и −1 к Проворности.",
           "effects": {
             "veryHeavy": {
               "name": "Очень тяжёлая",
-              "description": "-2 to Evasion; -1 to Agility"
+              "description": "−2 к Уклонению и −1 к Проворности."
             }
           }
         },
         "warded": {
           "name": "Зачарованная",
-          "description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.",
+          "description": "Уменьшайте входящий магический урон на ваше значение брони перед тем, как сравнивать его с порогами урона.",
           "effects": {
             "warded": {
               "name": "Зачарованная",
-              "description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds."
+              "description": "Уменьшайте входящий магический урон на ваше значение брони перед тем, как сравнивать его с порогами урона."
             }
           }
         }
@@ -1016,7 +1016,7 @@
       },
       "RollTypes": {
         "trait": {
-          "name": "Trait"
+          "name": "Атрибут"
         },
         "attack": {
           "name": "Attack"
@@ -1839,7 +1839,7 @@
         "primaryWeaponAttack": "Primary Weapon Attack Roll",
         "secondaryWeaponAttack": "Secondary Weapon Attack Roll",
         "spellcast": "Spellcast Roll",
-        "trait": "Trait Roll",
+        "trait": "Бросок атрибута",
         "action": "Action Roll",
         "reaction": "Reaction Roll"
       },
@@ -1938,8 +1938,8 @@
         "4": "Tier 4"
       },
       "Trait": {
-        "single": "Trait",
-        "plural": "Traits"
+        "single": "Атрибут",
+        "plural": "Атрибуты"
       },
       "actorName": "Actor Name",
       "amount": "Amount",
@@ -2094,7 +2094,7 @@
             "label": "Tier"
           },
           "mainTrait": {
-            "label": "Main Trait"
+            "label": "Основной атрибут"
           },
           "examples": {
             "label": "Examples"
