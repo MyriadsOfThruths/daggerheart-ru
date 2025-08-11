@@ -1,0 +1,32 @@
+{
+  "id": "daggerheart-ru",
+  "title": "Daggerheart — Русификация (UI)",
+  "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "Miranzel & co."
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "daggerheart",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "ru",
+      "name": "Русский",
+      "path": "lang/ru.json",
+      "flags": {}
+    }
+  ]
+}
