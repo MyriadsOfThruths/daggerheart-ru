@@ -1,111 +1,111 @@
 {
   "TYPES": {
     "Item": {
-      "ancestry": "Ancestry",
-      "community": "Community",
-      "class": "Class",
-      "subclass": "Subclass",
-      "feature": "Feature",
-      "domainCard": "Domain Card",
-      "consumable": "Consumable",
-      "loot": "Loot",
-      "weapon": "Weapon",
-      "armor": "Armor",
-      "beastform": "Beastform"
+      "ancestry": "Происхождение",
+      "community": "Сообщество",
+      "class": "Класс",
+      "subclass": "Подкласс",
+      "feature": "Свойство",
+      "domainCard": "Карточка Домена",
+      "consumable": "Расходники",
+      "loot": "Добыча",
+      "weapon": "Оружие",
+      "armor": "Броня",
+      "beastform": "Звериная форма"
     },
     "ActiveEffect": {
-      "beastform": "Beastform"
+      "beastform": "Звериная форма"
     },
     "Actor": {
-      "character": "Character",
-      "companion": "Companion",
-      "adversary": "Adversary",
-      "environment": "Environment"
+      "character": "Персонаж",
+      "companion": "Компаньон",
+      "adversary": "Противник",
+      "environment": "Эпизод"
     }
   },
   "CONTROLS": {
-    "inFront": "In Front"
+    "inFront": "Перед собой"
   },
   "DAGGERHEART": {
     "ACTIONS": {
       "TYPES": {
         "attack": {
-          "name": "Attack",
-          "tooltip": "Offensive Action like weapon attack, spellcast, etc."
+          "name": "Атака",
+          "tooltip": "Наступательные действия, такие как атака оружием, заклинания и т. д."
         },
         "beastform": {
-          "name": "Beastform",
-          "tooltip": "Shapeshift the user into another form."
+          "name": "Звериная форма",
+          "tooltip": "Изменить форму использующего в другую форму."
         },
         "damage": {
-          "name": "Damage",
-          "tooltip": "Direct damage without a roll."
+          "name": "Урон",
+          "tooltip": "Прямой урон без броска кубика."
         },
         "effect": {
-          "name": "Generic",
-          "tooltip": "Generic action that only display a chat message if nothing is configured."
+          "name": "Общее",
+          "tooltip": "Общее действие, которое показывает сообщение в чате, если ничего не настроено."
         },
         "healing": {
-          "name": "Healing",
-          "tooltip": "Restore resources to the target. May have a roll configured."
+          "name": "Исциление",
+          "tooltip": "Восстановить ресурсы цели. Может иметь заданный бросок."
         },
         "macro": {
-          "name": "Macro",
-          "tooltip": "Execute a macro by UUID."
+          "name": "Макросс",
+          "tooltip": "Выполнить макрос по UUID."
         },
         "summon": {
-          "name": "Summon",
-          "tooltip": "Create tokens in the scene."
+          "name": "Призвать",
+          "tooltip": "Создать токены в сцене."
         }
       },
       "Config": {
         "beastform": {
-          "exact": "Beastform Max Tier",
-          "exactHint": "The Character's Tier is used if empty",
-          "label": "Beastform"
+          "exact": "Максимальный тир Звериной формы",
+          "exactHint": "Используется уровень персонажа, если значение пустое",
+          "label": "Звериная форма"
         },
-        "displayInChat": "Display in chat"
+        "displayInChat": "Показать в чате"
       },
       "RollField": {
         "diceRolling": {
-          "compare": "Should be",
-          "dice": "Dice Type",
-          "flatMultiplier": "Flat Multiplier",
-          "multiplier": "Dice Number",
-          "threshold": "Threshold"
+          "compare": "Должно быть",
+          "dice": "Тип кости",
+          "flatMultiplier": "Постоянный множитель",
+          "multiplier": "Количество костей",
+          "threshold": "Порог"
         }
       },
       "Settings": {
-        "attackBonus": "Attack Bonus",
-        "attackName": "Attack Name",
+        "attackBonus": "Бонус к атаке",
+        "attackName": "Название атаки",
         "includeBase": {
-          "label": "Include Item Damage"
+          "label": "Включить урон предмета"
         },
-        "multiplier": "Multiplier",
+        "multiplier": "Множитель",
         "resultBased": {
-          "label": "Formula based on Hope/Fear result."
+          "label": "Формула, основанная на результате Надежда/Страх"
         },
         "applyTo": {
-          "label": "Targeted Resource"
+          "label": "Целевой ресурс"
         },
         "consumeOnSuccess": {
-          "label": "Consume on Success only",
-          "short": "(on Success only)"
+          "label": "Потреблять только при успехе",
+          "short": "(только при успехе)"
         },
         "cost": {
-          "stepTooltip": "+{step} per step"
+          "stepTooltip": "+{step} за шаг"
         }
       }
     },
     "ACTIVEEFFECT": {
       "Config": {
         "rangeDependence": {
-          "title": "Range Dependence"
+          "title": "Зависимость от дистанции"
         }
       },
       "RangeDependance": {
-        "hint": "Settings for an optional distance at which this effect should activate",
-        "title": "Range Dependant"
+        "hint": "Настройки для необязательной дистанции, при которой этот эффект должен сработать",
+        "title": "Зависимость от дистанции"
       }
     },
     "ACTORS": {
@@ -113,746 +113,746 @@
         "FIELDS": {
           "attack": {
             "name": {
-              "label": "Name"
+              "label": "Название"
             },
             "modifier": {
-              "label": "Modifier"
+              "label": "Модификатор"
             },
             "range": {
-              "label": "Range"
+              "label": "Дистанция"
             },
             "damage": {
               "value": {
-                "label": "Damage"
+                "label": "Урон"
               },
               "type": {
-                "label": "Damage Type"
+                "label": "Тип урона"
               }
             }
           },
           "damageThresholds": {
             "major": {
-              "label": "Major"
+              "label": "Ощутимый"
             },
             "severe": {
-              "label": "Severe"
+              "label": "Тяжелый"
             }
           },
           "description": {
-            "label": "Description"
+            "label": "Описание"
           },
           "difficulty": {
-            "label": "Difficulty"
+            "label": "Сложность"
           },
           "experiences": {
             "element": {
               "name": {
-                "label": "Name"
+                "label": "Название"
               },
               "value": {
-                "label": "Modifier"
+                "label": "Модификатор"
               }
             }
           },
           "motivesAndTactics": {
-            "label": "Motives & Tactics"
+            "label": "Мотивы и тактика"
           },
           "resources": {
             "hitPoints": {
               "value": {
-                "label": "Current"
+                "label": "Текущее"
               },
               "max": {
-                "label": "Max"
+                "label": "Максимум"
               }
             },
             "stress": {
               "value": {
-                "label": "Current"
+                "label": "Текущее"
               },
               "max": {
-                "label": "Max"
+                "label": "Максимум"
               }
             }
           },
           "tier": {
-            "label": "Tier"
+            "label": "Тир"
           },
           "type": {
-            "label": "Type"
+            "label": "Тип"
           }
         },
-        "hordeDamage": "Horde Damage",
-        "horderHp": "Horde/HP"
+        "hordeDamage": "Урон орды",
+        "horderHp": "Орда/ОЗ"
       },
       "Character": {
         "advantageSources": {
-          "label": "Advantage Sources",
-          "hint": "Add single words or short text as reminders and hints of what a character has advantage on."
+          "label": "Источники преимущества",
+          "hint": "Добавьте отдельные слова или короткие фразы в качестве напоминаний и подсказок, в чём персонаж имеет преимущество."
         },
-        "age": "Age",
-        "companionFeatures": "Companion Features",
+        "age": "Возраст",
+        "companionFeatures": "Особенности спутника",
         "contextMenu": {
-          "consume": "Consume Item",
-          "equip": "Equip",
-          "sendToChat": "Send To Chat",
-          "toLoadout": "Send to Loadout",
-          "toVault": "Send to Vault",
-          "unequip": "Unequip",
-          "useItem": "Use Item"
+          "consume": "Использовать предмет",
+          "equip": "Экипировать",
+          "sendToChat": "Отправить в чат",
+          "toLoadout": "Отправить в снаряжение",
+          "toVault": "Отправить в хранилище",
+          "unequip": "Снять",
+          "useItem": "Использовать"
         },
         "disadvantageSources": {
-          "label": "Disadvantage Sources",
-          "hint": "Add single words or short text as reminders and hints of what a character has disadvantage on."
+          "label": "Источники помехи",
+          "hint": "Добавьте отдельные слова или короткие фразы в качестве напоминаний и подсказок, в чём персонаж имеет помеху."
         },
-        "faith": "Faith",
-        "levelUp": "You can level up",
-        "maxEvasionBonus": "Max Evasion Increase",
-        "maxHPBonus": "Max HP Increase",
-        "pronouns": "Pronouns",
+        "faith": "Вера",
+        "levelUp": "Доступно повышение уровня",
+        "maxEvasionBonus": "Макс. бонус к уклонению",
+        "maxHPBonus": "Макс. бонус к ОЗ",
+        "pronouns": "Местоимения",
         "story": {
-          "backgroundTitle": "Background",
-          "characteristics": "Characteristics",
-          "connectionsTitle": "Connections"
+          "backgroundTitle": "Предыстория",
+          "characteristics": "Характеристики",
+          "connectionsTitle": "Связи"
         },
         "experienceDataRemoveConfirmation": {
-          "title": "Remove Experience Data",
-          "text": "The experience you are about to remove has levelup data linked to it (assumably because you did levelups with the 'levelupAuto' automation setting on). Removing it will remove this automation data aswell. Do you want to proceed?"
+          "title": "Удалить опыт",
+          "text": "Вы собираетесь удалить опыт, к которому привязаны данные для повышения уровня (предположительно, потому что у вас включена автоматизация 'levelupAuto'). Удаление также удалит эти автоматизационные данные. Продолжить?"
         },
         "manualMulticlass": {
-          "title": "Multiclass",
-          "text": "Do you want to add this class as your multiclass?"
+          "title": "Мультикласс",
+          "text": "Добавить этот класс как мультикласс?"
         },
         "manualMulticlassSubclass": {
-          "title": "Multiclass Subclass",
-          "text": "Do you want to add this subclass as your multiclass subclass?"
+          "title": "Подкласс мультикласса",
+          "text": "Добавить этот подкласс как подкласс мультикласса?"
         },
-        "cannotRemoveCoreExperience": "You are using Levelup Auto. You cannot remove an experience given to you by the rule progression."
+        "cannotRemoveCoreExperience": "Включено автоматическое повышение уровня. Нельзя удалить опыт, полученный по правилам прогрессии."
       },
       "Companion": {
         "FIELDS": {
           "attack": {
             "name": {
-              "label": "Attack Name"
+              "label": "Название атаки"
             }
           },
           "evasion": {
             "value": {
-              "label": "Evasion"
+              "label": "Уклонение"
             }
           },
           "partner": {
-            "label": "Partner"
+            "label": "Партнёр"
           },
           "resources": {
             "stress": {
               "value": {
-                "label": "Stress"
+                "label": "Стресс"
               },
               "currentStress": {
-                "label": "Current Stress"
+                "label": "Текущий стресс"
               },
               "maxStress": {
-                "label": "Max Stress"
+                "label": "Макс. стресс"
               }
             }
           }
         },
-        "noPartner": "No Partner selected"
+        "noPartner": "Партнёр не выбран"
       },
       "Environment": {
         "FIELDS": {
           "description": {
-            "label": "Description"
+            "label": "Описание"
           },
           "difficulty": {
-            "label": "Difficulty"
+            "label": "Сложность"
           },
           "impulses": {
-            "label": "Impulses"
+            "label": "Импульсы"
           },
           "tier": {
-            "label": "Tier"
+            "label": "Тир"
           },
           "type": {
-            "label": "Type"
+            "label": "Тип"
           }
         },
-        "newAdversary": "New Adversary"
+        "newAdversary": "Новый противник"
       }
     },
     "APPLICATIONS": {
       "CharacterCreation": {
         "setupTabs": {
-          "ancestry": "Ancestry",
-          "community": "Community",
-          "class": "Class",
-          "experience": "Experience",
-          "traits": "Traits",
-          "domainCards": "Domain Cards"
+          "ancestry": "Происхождение",
+          "community": "Сообщество",
+          "class": "Класс",
+          "experience": "Опыт",
+          "traits": "Черты",
+          "domainCards": "Карточки доменов"
         },
-        "ancestryNamePlaceholder": "Your ancestry's name",
-        "buttonTitle": "Character Setup",
-        "choice": "Choice",
-        "finishCreation": "Finish Character Setup",
-        "heritage": "Heritage",
-        "initialExperiences": "Initial Experiences",
-        "mixedAncestry": "Mixed Ancestry",
-        "newExperience": "New Experience..",
-        "selectAncestry": "Select Ancestry",
-        "selectPrimaryAncestry": "Select Primary Ancestry",
-        "selectSecondaryAncestry": "Select Secondary Ancestry",
-        "selectArmor": "Select Armor",
-        "selectClass": "Select Class",
-        "selectCommunity": "Select Community",
-        "selectPrimaryWeapon": "Select Primary Weapon",
-        "selectSecondaryWeapon": "Select Secondary Weapon",
-        "selectSubclass": "Select Subclass",
-        "startingItems": "Starting Items",
-        "story": "Story",
-        "suggestedArmor": "Suggested Armor",
-        "suggestedPrimaryWeapon": "Suggested Primary Weapon",
-        "suggestedSecondaryWeapon": "Suggested Secondary Weapon",
-        "suggestedTraits": "Suggested Traits",
-        "suggestedWeapons": "Suggested Weapon",
-        "title": "{actor} - Character Setup",
-        "traitIncreases": "Trait Increases"
+        "ancestryNamePlaceholder": "Название происхождения",
+        "buttonTitle": "Создание персонажа",
+        "choice": "Выбор",
+        "finishCreation": "Завершить создание персонажа",
+        "heritage": "Наследие",
+        "initialExperiences": "Начальный опыт",
+        "mixedAncestry": "Смешанное происхождение",
+        "newExperience": "Новый опыт…",
+        "selectAncestry": "Выберите происхождение",
+        "selectPrimaryAncestry": "Выберите основное происхождение",
+        "selectSecondaryAncestry": "Выберите второе происхождение",
+        "selectArmor": "Выберите броню",
+        "selectClass": "Выберите класс",
+        "selectCommunity": "Выберите сообщество",
+        "selectPrimaryWeapon": "Выберите основное оружие",
+        "selectSecondaryWeapon": "Выберите дополнительное оружие",
+        "selectSubclass": "Выберите подкласс",
+        "startingItems": "Начальные предметы",
+        "story": "История",
+        "suggestedArmor": "Рекомендуемая броня",
+        "suggestedPrimaryWeapon": "Рекомендуемое основное оружие",
+        "suggestedSecondaryWeapon": "Рекомендуемое дополнительное оружие",
+        "suggestedTraits": "Рекомендуемые черты",
+        "suggestedWeapons": "Рекомендуемое оружие",
+        "title": "{actor} — Создание персонажа",
+        "traitIncreases": "Усиление черты"
       },
       "CombatTracker": {
-        "combatStarted": "Active",
-        "giveSpotlight": "Give The Spotlight",
-        "requestingSpotlight": "Requesting The Spotlight",
-        "requestSpotlight": "Request The Spotlight"
+        "combatStarted": "Активно",
+        "giveSpotlight": "Передать внимание",
+        "requestingSpotlight": "Запрашивает внимание",
+        "requestSpotlight": "Запросить внимание"
       },
       "ContextMenu": {
-        "disableEffect": "Disable Effect",
-        "enableEffect": "Enable Effect",
-        "equip": "Equip",
-        "sendToChat": "Send To Chat",
-        "toLoadout": "Send to Loadout",
-        "toVault": "Send to Vault",
-        "unequip": "Unequip",
-        "useItem": "Use Item"
+        "disableEffect": "Отключить эффект",
+        "enableEffect": "Включить эффект",
+        "equip": "Экипировать",
+        "sendToChat": "Отправить в чат",
+        "toLoadout": "Отправить в снаряжение",
+        "toVault": "Отправить в хранилище",
+        "unequip": "Снять",
+        "useItem": "Использовать предмет"
       },
       "Countdown": {
-        "addCountdown": "Add Countdown",
+        "addCountdown": "Добавить счётчик",
         "FIELDS": {
           "countdowns": {
             "element": {
               "name": {
-                "label": "Name"
+                "label": "Название"
               },
               "progress": {
                 "current": {
-                  "label": "Current"
+                  "label": "Текущее"
                 },
                 "max": {
-                  "label": "Max"
+                  "label": "Максимум"
                 },
                 "type": {
                   "label": {
-                    "label": "Label",
-                    "hint": "Used for custom"
+                    "label": "Метка",
+                    "hint": "Используется для пользовательских"
                   },
                   "value": {
-                    "label": "Value"
+                    "label": "Значение"
                   }
                 }
               }
             }
           }
         },
-        "newCountdown": "New Countdown",
-        "openOwnership": "Edit Player Ownership",
-        "removeCountdownText": "Are you sure you want to remove the countdown: {name}?",
-        "removeCountdownTitle": "Remove Countdown",
-        "title": "{type} Countdowns",
-        "toggleSimple": "Toggle Simple View",
+        "newCountdown": "Новый счётчик",
+        "openOwnership": "Редактировать владельцев",
+        "removeCountdownText": "Вы уверены, что хотите удалить счётчик: {name}?",
+        "removeCountdownTitle": "Удалить счётчик",
+        "title": "{type} — Счётчики",
+        "toggleSimple": "Простой вид",
         "types": {
-          "narrative": "Narrative",
-          "encounter": "Encounter"
+          "narrative": "Нарративный",
+          "encounter": "Сценарный"
         }
       },
       "DeleteConfirmation": {
-        "title": "Delete {type} - {name}",
-        "text": "Are you sure you want to delete {name}?"
+        "title": "Удалить {type} — {name}",
+        "text": "Вы уверены, что хотите удалить {name}?"
       },
       "DamageReduction": {
-        "armorMarks": "Armor Marks",
-        "armorWithStress": "Spend 1 stress to use an extra mark",
-        "thresholdImmunities": "Threshold Immunities",
-        "stress": "Stress",
-        "stressReduction": "Reduce By Stress",
-        "title": "Damage Reduction",
-        "unncessaryStress": "You don't need to expend stress",
-        "usedMarks": "Used Marks"
+        "armorMarks": "Метки брони",
+        "armorWithStress": "Потратьте 1 стресс, чтобы использовать дополнительную метку",
+        "thresholdImmunities": "пороговый иммунитет",
+        "stress": "Стресс",
+        "stressReduction": "Снизить стресс",
+        "title": "Снижение урона",
+        "unncessaryStress": "Нет необходимости тратить стресс",
+        "usedMarks": "Использованные метки"
       },
       "DeathMove": {
-        "selectMove": "Select Move",
-        "takeMove": "Take Death Move",
-        "title": "{actor} - Death Move"
+        "selectMove": "Выберите приём",
+        "takeMove": "Взять Смертельный приём",
+        "title": "{actor} — Смертельный приём"
       },
       "Downtime": {
         "longRest": {
-          "title": "Long Rest",
-          "moves": "Long Rest Moves ({current}/{max})",
+          "title": "Долгий отдых",
+          "moves": "Действия долгого отдыха ({current}/{max})",
           "clearStress": {
-            "description": "Describe how you blow off steam or pull yourself together, and clear all marked Stress.",
-            "name": "Clear Stress"
+            "description": "Опишите, как вы снимаете стресс или приходите в себя, и уберите все отмеченные Очки стресса.",
+            "name": "Снять стресс"
           },
           "prepare": {
-            "description": "Describe how you are preparing for the next day's adventure, then gain a Hope. If you choose to Prepare with one or more members of your party, you may each take two Hope.",
-            "name": "Prepare"
+            "description": "Опишите, как вы готовитесь к следующему приключению, затем получите 1 Очко надежды. Если вы готовитесь вместе с одним или несколькими членами своей группы, каждый из вас получает по 2 Очка надежды.",
+            "name": "Подготовиться"
           },
           "repairArmor": {
-            "description": "Describe how you spend time repairing your armor and clear all of its Armor Slots. You may also do this to an ally's armor instead.",
-            "name": "Repair Armor"
+            "description": "Опишите, как вы чините свои доспехи, и очистите все ячейки брони. Вы также можете сделать это для брони союзника.",
+            "name": "Починить доспехи"
           },
           "tendToWounds": {
-            "description": "Describe how you patch yourself up and remove all marked Hit Points. You may also do this on an ally instead.",
-            "name": "Tend to Wounds"
+            "description": "Опишите, как вы перевязываете себя и убираете все отмеченные Очки здоровья. Вы также можете сделать это для союзника.",
+            "name": "Залечить раны"
           },
           "workOnAProject": {
-            "description": "Establish or continue work on a project.",
-            "name": "Work on a Project"
+            "description": "Начните или продолжите работу над проектом.",
+            "name": "Работа над проектом"
           }
         },
         "shortRest": {
-          "title": "Short Rest",
-          "moves": "Short Rest Moves ({current}/{max})",
+          "title": "Короткий отдых",
+          "moves": "Действия короткого отдыха ({current}/{max})",
           "tendToWounds": {
-            "name": "Tend to Wounds",
-            "description": "Describe how you hastily patch yourself up, then clear a number of Hit Points equal to 1d4 + your tier. You can do this to an ally instead."
+            "name": "Залечить раны",
+            "description": "Опишите, как вы наспех перевязываетесь, затем восстановите количество Очков здоровья, равное 1d4 + ваш тир. Можно сделать это для союзника."
           },
           "clearStress": {
-            "name": "Clear Stress",
-            "description": "Describe how you blow off steam or pull yourself together, then clear a number of Stress equal to 1d4 + your tier."
+            "name": "Снять стресс",
+            "description": "Опишите, как вы снимаете напряжение или приводите себя в порядок, затем восстановите количество Очков стресса, равное 1d4 + ваш тир."
           },
           "repairArmor": {
-            "name": "Repair Armor",
-            "description": "Describe how you quickly repair your armor, then clear a number of Armor Slots equal to 1d4 + your tier. You can do this to an ally's armor instead."
+            "name": "Починить доспехи",
+            "description": "Опишите, как вы быстро чините свои доспехи, затем восстановите количество ячеек брони, равное 1d4 + ваш тир. Можно сделать это для брони союзника."
           },
           "prepare": {
-            "name": "Prepare",
-            "description": "Describe how you prepare yourself for the path ahead, then gain a Hope. If you choose to Prepare with one or more members of your party, you each gain 2 Hope."
+            "name": "Подготовиться",
+            "description": "Опишите, как вы готовитесь к грядущему пути, затем получите 1 Очко надежды. Если вы готовитесь с одним или несколькими членами своей группы, каждый получает по 2 Очка надежды."
           }
         },
         "refreshable": {
-          "title": "Refreshing Resources"
+          "title": "Восстановление ресурсов"
         },
-        "takeDowntime": "Take Downtime"
+        "takeDowntime": "Взять время отдыха"
       },
       "HUD": {
         "tokenHUD": {
-          "genericEffects": "Foundry Effects"
+          "genericEffects": "Эффекты Foundry"
         }
       },
       "Levelup": {
         "actions": {
           "creatureComfort": {
-            "name": "Creature Comfort",
-            "description": "Once per rest, when you take time during a quiet moment to give your companion love and attention, you can gain a Hope or you can both clear a Stress."
+            "name": "Удобства для спутника",
+            "description": "Раз в отдых, уделив время в спокойный момент, чтобы проявить заботу к своему спутнику, вы можете получить Очко надежды или вы оба снимаете 1 Стресс."
           },
           "armored": {
-            "name": "Armored",
-            "description": "When your companion takes damage, you can mark one of your Armor Slots instead of marking one of their Stress."
+            "name": "Бронированный",
+            "description": "Когда ваш спутник получает урон, вы можете отметить одну из своих ячеек брони вместо отметки его Стресса."
           },
           "bonded": {
-            "name": "Bonded",
-            "description": "When you mark your last Hit Point, your companion rushes to your side to comfort you. Roll a number of d6s equal to the unmarked Stress slots they have and mark them. If any roll a 6, your companion helps you up. Clear your last Hit Point and return to the scene."
+            "name": "Связь",
+            "description": "Когда вы отмечаете своё последнее Очко здоровья, ваш спутник бросается к вам. Бросьте количество d6, равное числу его свободных ячеек Стресса, и отметьте их. Если выпадает хотя бы одна 6, спутник помогает вам подняться — снимите отметку последнего Очка здоровья и вернитесь в сцену."
           }
         },
         "choiceDescriptions": {
-          "attributes": "Gain a +1 bonus to two unmarked character traits and mark them.",
-          "hitPointSlots": "Permanently gain one Hit Point slot.",
-          "stressSlots": "Permanently gain one Stress slot.",
-          "experiences": "Permanently gain a +1 bonus to two experiences.",
-          "domainCard": "Choose an additional domain card of your level or lower from a domain you have access to (up to level {maxLevel})",
-          "evasion": "Permanently gain a +1 bonus to your Evasion.",
-          "proficiency": "Increase your Proficiency by +1.",
-          "subclass": "Take an upgraded subclass card. Then cross out the multiclass option for this tier.",
-          "multiclass": "Multiclass: Choose an additional class for your character, then cross out an unused “Take an upgraded subclass card” and the other multiclass option on this sheet."
+          "attributes": "Получите +1 к двум неотмеченным чертам персонажа и отметьте их.",
+          "hitPointSlots": "Навсегда получите одну ячейку Очков здоровья.",
+          "stressSlots": "Навсегда получите одну ячейку Стресса.",
+          "experiences": "Навсегда получите +1 к двум навыкам.",
+          "domainCard": "Выберите дополнительную карточку домена вашего уровня или ниже из доступного вам домена (до {maxLevel} уровня).",
+          "evasion": "Навсегда получите +1 к Уклонению.",
+          "proficiency": "Увеличьте своё Мастерство на +1.",
+          "subclass": "Возьмите улучшенную карту подкласса, затем зачеркните опцию мультикласса для этого ранга.",
+          "multiclass": "Мультикласс: выберите дополнительный класс для своего персонажа, затем зачеркните одну из опций «Взять улучшенную карту подкласса» и другую опцию мультикласса на этом листе."
         },
         "delevel": {
-          "content": "Returning to the previous level selection will remove all selections made for this level. Do you want to proceed?",
-          "title": "Go back to previous level"
+          "content": "Возврат к выбору предыдущего уровня удалит все выборы, сделанные для этого уровня. Продолжить?",
+          "title": "Вернуться к предыдущему уровню"
         },
-        "navigateLevel": "To Level {level}",
-        "navigateToLevelup": "Return To Levelup",
-        "navigateToSummary": "To Summary",
+        "navigateLevel": "К уровню {level}",
+        "navigateToLevelup": "Вернуться к повышению уровня",
+        "navigateToSummary": "К сводке",
         "options": {
-          "trait": "Gain a +1 bonus to two unmarked character traits and mark them.",
-          "hitPoint": "Permanently gain one Hit Point slot.",
-          "stress": "Permanently gain one Stress slot.",
-          "experience": "Permanently gain a +1 bonus to two experiences.",
-          "domainCard": "Choose an additional domain card of your level or lower from a domain you have access to (up to level {maxLevel})",
-          "evasion": "Permanently gain a +1 bonus to your Evasion.",
-          "subclass": "Take an upgraded subclass card. Then cross out the multiclass option for this tier.",
-          "proficiency": "Increase your Proficiency by +1.",
-          "multiclass": "Multiclass: Choose an additional class for your character, then cross out an unused “Take an upgraded subclass card” and the other multiclass option on this sheet.",
-          "intelligent": "Your companion gains a permanent +1 bonus to a Companion Experience of your choice.",
-          "lightInTheDark": "Gain an additional Hope slot for your character.",
-          "creatureComfort": "Once per rest, when you take time during a quiet moment to give your companion love and attention, you can gain a Hope or you can both clear a Stress.",
-          "armored": "When your companion takes damage, you can mark one of your Armor Slots instead of marking one of their Stress.",
-          "vicious": "Increase your companion's damage dice or range by one step (d6 to d8, Close to Far, etc.)",
-          "resilient": "Your companion gains an additional Stress slot.",
-          "bonded": "When you mark your last Hit Point, your companion rushes to your side to comfort you. Roll a number of d6s equal to the unmarked Stress slots they have and mark them. If any roll a 6, your companion helps you up. Clear your last Hit Point and return to the scene.",
-          "aware": "Your companion gains a permanent +2 bonus to their Evasion."
+          "trait": "Получите +1 к двум неотмеченным чертам персонажа и отметьте их.",
+          "hitPoint": "Навсегда получите одну ячейку Очков здоровья.",
+          "stress": "Навсегда получите одну ячейку Стресса.",
+          "experience": "Навсегда получите +1 к двум навыкам.",
+          "domainCard": "Выберите дополнительную карту домена вашего уровня или ниже из доступного вам домена (до {maxLevel} уровня).",
+          "evasion": "Навсегда получите +1 к Уклонению.",
+          "subclass": "Возьмите улучшенную карту подкласса. Затем зачеркните опцию мультикласса для этого ранга.",
+          "proficiency": "Увеличьте своё Мастерство на +1.",
+          "multiclass": "Мультикласс: выберите дополнительный класс для своего персонажа, затем зачеркните одну из опций «Взять улучшенную карту подкласса» и другую опцию мультикласса на этом листе.",
+          "intelligent": "Ваш спутник получает постоянный бонус +1 к одному выбранному опыту спутника.",
+          "lightInTheDark": "Получите дополнительную ячейку Надежды для персонажа.",
+          "creatureComfort": "Раз в отдых, уделив время в тихий момент, чтобы проявить заботу к своему спутнику, вы можете получить Очко надежды или вы оба снимаете 1 Стресс.",
+          "armored": "Когда ваш спутник получает урон, вы можете отметить одну из своих ячеек брони вместо отметки его Стресса.",
+          "vicious": "Увеличьте урон или дальность вашего спутника на одну ступень (d6 до d8, Ближний до Дальний и т.п.).",
+          "resilient": "Ваш спутник получает дополнительную ячейку Стресса.",
+          "bonded": "Когда вы отмечаете своё последнее Очко здоровья, ваш спутник бросается к вам. Бросьте количество d6, равное числу его свободных ячеек Стресса, и отметьте их. Если выпадает хотя бы одна 6, спутник помогает вам подняться — снимите отметку последнего Очка здоровья и вернитесь в сцену.",
+          "aware": "Ваш спутник получает постоянный бонус +2 к Уклонению."
         },
         "selections": {
-          "emptyDomainCardHint": "{domain} level {level} or below",
-          "viciousDamage": "Damage",
-          "viciousRange": "Range"
+          "emptyDomainCardHint": "{domain} уровень {level} или ниже",
+          "viciousDamage": "Урон",
+          "viciousRange": "Дальность"
         },
         "summary": {
-          "levelAchievements": "Level Achievements",
-          "levelAdvancements": "Level Advancements",
-          "proficiencyIncrease": "Proficiency Increased: {proficiency}",
-          "hpIncrease": "Hit Points Increased: {hitPoints}",
-          "stressIncrease": "Stress Increased: {stress}",
-          "evasionIncrease": "Evasion Increased: {evasion}",
-          "damageThresholdMajorIncrease": "Major: {threshold}",
-          "damageThresholdSevereIncrease": "Severe: {threshold}",
-          "newExperiences": "New Experiences",
-          "experiencePlaceholder": "A new experience..",
-          "domainCards": "Domain Cards",
-          "subclass": "Subclass",
-          "multiclass": "Multiclass",
-          "traits": "Increased Traits",
-          "experienceIncreases": "Experience Increases",
-          "damageThresholds": "Damage Thresholds",
-          "vicious": "Vicious",
-          "damageIncreased": "Damage Increased: {damage}",
-          "rangeIncreased": "Range Increased: {range}",
-          "simpleFeature": "Feature: {feature}"
+          "levelAchievements": "Достижения уровня",
+          "levelAdvancements": "Повышения уровня",
+          "proficiencyIncrease": "Мастерство увеличено: {proficiency}",
+          "hpIncrease": "Очки здоровья увеличены: {hitPoints}",
+          "stressIncrease": "Стресс увеличен: {stress}",
+          "evasionIncrease": "Уклонение увеличено: {evasion}",
+          "damageThresholdMajorIncrease": "Ощутимый: {threshold}",
+          "damageThresholdSevereIncrease": "Тяжелый: {threshold}",
+          "newExperiences": "Новые навыки",
+          "experiencePlaceholder": "Новый навык...",
+          "domainCards": "Карточки доменов",
+          "subclass": "Подкласс",
+          "multiclass": "Мультикласс",
+          "traits": "Улучшение черты",
+          "experienceIncreases": "Улучшение опыта",
+          "damageThresholds": "Пороги урона",
+          "vicious": "Свирепый",
+          "damageIncreased": "Урон увеличен: {damage}",
+          "rangeIncreased": "Дальность увеличена: {range}",
+          "simpleFeature": "Особенность: {feature}"
         },
-        "takeLevelUp": "Finish Level Up",
+        "takeLevelUp": "Завершить повышение уровня",
         "tier2": {
-          "label": "Levels 2-4",
-          "infoLabel": "At Level 2, gain an additional Experience at +2 and gain a +1 bonus to your Proficiency.",
-          "pretext": "Choose two options from the list below",
-          "posttext": "Take an additional domain card of your level or lower from a domain you have access to."
+          "label": "Уровни 2-4",
+          "infoLabel": "На 2-м уровне получите дополнительный навык с бонусом +2 и +1 к Мастерству.",
+          "pretext": "Выберите два варианта из списка ниже",
+          "posttext": "Возьмите дополнительную карту домена вашего уровня или ниже из доступного вам домена."
         },
         "tier3": {
-          "label": "Levels 5-7",
-          "infoLabel": "At Level 5, take an additional Experience and clear all marks on Character Traits.",
-          "pretext": "When you level up, record it on your character sheet, then choose two from the list below or any unmarked from the previous tier.",
-          "posttext": "Take an additional domain card of your level or lower from a domain you have access to."
+          "label": "Уровни 5-7",
+          "infoLabel": "На 5-м уровне возьмите дополнительный навык и снимите все отметки с черт персонажа.",
+          "pretext": "Повысив уровень, отметьте это на листе персонажа, затем выберите два варианта из списка ниже или любые неотмеченные из предыдущего ранга.",
+          "posttext": "Возьмите дополнительную карту домена вашего уровня или ниже из доступного вам домена."
         },
         "tier4": {
-          "label": "Levels 8-10",
-          "infoLabel": "At Level 8, take an additional Experience and clear all marks on Character Traits.",
-          "pretext": "When you level up, record it on your character sheet, then choose two from the list below or any unmarked from the previous tier.",
-          "posttext": "Take an additional domain card of your level or lower from a domain you have access to."
+          "label": "Уровни 8-10",
+          "infoLabel": "На 8-м уровне возьмите дополнительный навык и снимите все отметки с черт персонажа.",
+          "pretext": "Повысив уровень, отметьте это на листе персонажа, затем выберите два варианта из списка ниже или любые неотмеченные из предыдущего ранга.",
+          "posttext": "Возьмите дополнительную карту домена вашего уровня или ниже из доступного вам домена."
         },
-        "title": "{actor} Level Up"
+        "title": "{actor} — Повышение уровня"
       },
       "MulticlassChoice": {
-        "title": "Multiclassing - {actor}",
-        "explanation": "You are adding {class} as your multiclass",
-        "selectDomainPrompt": "Select your new domain"
+        "title": "Мультикласс — {actor}",
+        "explanation": "Вы добавляете {class} как дополнительный класс",
+        "selectDomainPrompt": "Выберите новый домен"
       },
       "OwnershipSelection": {
-        "title": "Ownership Selection - {name}",
-        "default": "Default Ownership"
+        "title": "Выбор владения — {name}",
+        "default": "Владение по умолчанию"
       },
       "ReactionRoll": {
-        "title": "Reaction Roll: {trait}"
+        "title": "Проверка реакции: {trait}"
       },
       "RerollDialog": {
-        "title": "Reroll",
-        "deselectDiceNotification": "Deselect one of the selected dice first",
-        "acceptCurrentRolls": "Accept Current Rolls"
+        "title": "Повторный бросок",
+        "deselectDiceNotification": "Сначала снимите выбор с одной из выбранных костей",
+        "acceptCurrentRolls": "Принять текущие броски"
       },
       "ResourceDice": {
-        "title": "{name} Resource",
-        "rerollDice": "Reroll Dice"
+        "title": "Ресурс {name}",
+        "rerollDice": "Перебросить кости"
       }
     },
     "CLASS": {
       "Feature": {
-        "rallyDice": "Bardic Rally Dice",
-        "short": "Rally"
+        "rallyDice": "Барическая кость подбадривания",
+        "short": "Подбадривание"
       }
     },
     "CONFIG": {
       "ActionType": {
-        "passive": "Passive",
-        "action": "Action",
-        "reaction": "Reaction"
+        "passive": "Пассивное",
+        "action": "Действие",
+        "reaction": "Реакция"
       },
       "AdversaryTrait": {
         "relentless": {
-          "name": "Relentless",
+          "name": "Неумолимый",
           "description": "A foe with Relentless can activate up to X times during a GM move so long as there are enough action tokens.",
           "tip": "The Relentless move is useful if you want an adversary you can activate more than once during a single GM move. This is often best for exceedingly fast or dangerous foes, or for adversaries who are likely to be battling the party on their own."
         },
         "slow": {
-          "name": "Slow",
+          "name": "Медленный",
           "description": "A foe with Slow costs X action tokens to activate.",
           "tip": "The Slow move is useful if you want an adversary who narratively takes longer to act than others, like a slug creature or a massive ogre. This is usually most effective when that creature is very powerful when it does act, but eats up lots of action tokens to do it."
         },
         "minion": {
-          "name": "Minion",
+          "name": "Приспешник",
           "description": "For every X damage a PC deals to this adversary, they also deal 1 HP to an additional minion within their attack’s range.",
           "tip": "The Minion move is useful when you want to drop lots of small enemies into the battlefield, knowing the party can swing through them very easily. This move means that if a PC hits one minion and they do enough damage, they also hit a number of others that are in range for them. Because of this, it’s often best to have minions crowd a PC–it will feel overwhelming and dangerous until they’re able to make an attack against them. If you want that cinematic feeling of the PCs taking out waves of enemies with a single attack roll, minions are a great tool to make that happen."
         }
       },
       "AdversaryType": {
         "bruiser": {
-          "label": "Bruiser",
+          "label": "Громила",
           "description": "Tough adversaries with powerful attacks."
         },
         "horde": {
-          "label": "Horde",
+          "label": "Орда",
           "description": "A Horde represents a number of foes working in a group."
         },
         "leader": {
-          "label": "Leader",
+          "label": "Лидер",
           "description": "Adversaries that command and summon other adversaries."
         },
         "minion": {
-          "label": "Minion",
+          "label": "Приспешник",
           "description": "Basic enemies that are easily dispatched but dangerous in numbers."
         },
         "ranged": {
-          "label": "Ranged",
+          "label": "Стрелок",
           "description": "Adversaries that attack from a distance."
         },
         "skulk": {
-          "label": "Skulk",
+          "label": "Скрытный",
           "description": "Adversaries that maneuver and exploit opportunities to ambush their opponents."
         },
         "social": {
-          "label": "Social",
+          "label": "Социальный",
           "description": "Adversaries that are primarily interpersonal threats or challenges."
         },
         "solo": {
-          "label": "Solo",
+          "label": "Одиночка",
           "description": "Designed to present a challenge to a whole party."
         },
         "standard": {
-          "label": "Standard",
+          "label": "Рядовой",
           "description": "Rank and File adversaries."
         },
         "support": {
-          "label": "Support",
+          "label": "Поддержка",
           "description": "Enemies that enhance their allies and/or disrupt their opponents."
         }
       },
       "ArmorFeature": {
         "burning": {
-          "name": "Burning",
+          "name": "Горящая",
           "description": "When an adversary attacks you within Melee range, they mark a Stress.",
           "actions": {
             "burn": {
-              "name": "Burn",
+              "name": "Горящая",
               "description": "When an adversary attacks you within Melee range, they mark a Stress."
             }
           }
         },
         "channeling": {
-          "name": "Channeling",
+          "name": "Проводящая",
           "description": "+1 to Spellcast Rolls",
           "effects": {
             "channeling": {
-              "name": "Channeling",
+              "name": "Проводящая",
               "description": "+1 to Spellcast Rolls"
             }
           }
         },
         "difficult": {
-          "name": "Difficult",
+          "name": "Тяжёлая",
           "description": "-1 to all character traits and Evasion",
           "effects": {
             "difficult": {
-              "name": "Difficult",
+              "name": "Тяжёлая",
               "description": "-1 to all character traits and Evasion"
             }
           }
         },
         "flexible": {
-          "name": "Flexible",
+          "name": "Эластичная",
           "description": "+1 to Evasion",
           "effects": {
             "flexible": {
-              "name": "Flexible",
+              "name": "Эластичная",
               "description": "+1 to Evasion"
             }
           }
         },
         "fortified": {
-          "name": "Fortified",
+          "name": "Укреплённая",
           "description": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one.",
           "effects": {
             "fortified": {
-              "name": "Fortified",
+              "name": "Укреплённая",
               "description": "When you mark an Armor Slot, you reduce the severity of an attack by two thresholds instead of one."
             }
           }
         },
         "gilded": {
-          "name": "Gilded",
+          "name": "Позолоченная",
           "description": "+1 to Presence",
           "effects": {
             "gilded": {
-              "name": "Gilded",
+              "name": "Позолоченная",
               "description": "+1 to Presence"
             }
           }
         },
         "heavy": {
-          "name": "Heavy",
+          "name": "Тяжёлая",
           "description": "-1 to Evasion",
           "effects": {
             "heavy": {
-              "name": "Heavy",
+              "name": "Тяжёлая",
               "description": "-1 to Evasion"
             }
           }
         },
         "hopeful": {
-          "name": "Hopeful",
+          "name": "Обнадёживающая",
           "description": "When you would spend a Hope, you can mark an Armor Slot instead.",
           "actions": {
             "hope": {
-              "name": "Hope",
+              "name": "Обнадёживающая",
               "description": "When you would spend a Hope, you can mark an Armor Slot instead."
             }
           }
         },
         "impenetrable": {
-          "name": "Impenetrable",
+          "name": "Непробиваемая",
           "description": "Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress.",
           "actions": {
             "impenetrable": {
-              "name": "Impenetrable",
+              "name": "Непробиваемая",
               "description": "Once per short rest, when you would mark your last Hit Point, you can instead mark a Stress."
             }
           }
         },
         "magical": {
-          "name": "Magical",
+          "name": "Магическая",
           "description": "You can't mark an Armor Slot to reduce physical damage.",
           "effects": {
             "magical": {
-              "name": "Magical",
+              "name": "Магическая",
               "description": "You can't mark an Armor Slot to reduce physical damage."
             }
           }
         },
         "painful": {
-          "name": "Painful",
+          "name": "Болезненная",
           "description": "Each time you mark an Armor Slot, you must mark a Stress.",
           "actions": {
             "pain": {
-              "name": "Pain",
+              "name": "Болезненная",
               "description": "Each time you mark an Armor Slot, you must mark a Stress."
             }
           }
         },
         "physical": {
-          "name": "Physical",
+          "name": "Физическая",
           "description": "You can't mark an Armor Slot to reduce magic damage.",
           "effects": {
             "physical": {
-              "name": "Physical",
+              "name": "Физическая",
               "description": "You can't mark an Armor Slot to reduce magic damage."
             }
           }
         },
         "quiet": {
-          "name": "Quiet",
+          "name": "Бесшумная",
           "description": "You gain a +2 bonus to rolls you make to move silently.",
           "actions": {
             "quiet": {
-              "name": "Quiet",
+              "name": "Бесшумная",
               "description": "You gain a +2 bonus to rolls you make to move silently."
             }
           }
         },
         "reinforced": {
-          "name": "Reinforced",
+          "name": "Усиленная",
           "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot.",
           "actions": {
             "reinforce": {
-              "name": "Reinforce",
+              "name": "Усиленная",
               "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
             }
           },
           "effects": {
             "reinforced": {
-              "name": "Reinforced",
+              "name": "Усиленная",
               "description": "When you mark your last Armor Slot, increase your damage thresholds by +2 until you clear at least 1 Armor Slot."
             }
           }
         },
         "resilient": {
-          "name": "Resilient",
+          "name": "Устойчивая",
           "description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot.",
           "actions": {
             "resilient": {
-              "name": "Resilient",
+              "name": "Устойчивая",
               "description": "Before you mark your last Armor Slot, roll a d6. On a result of 6, reduce the severity by one threshold without marking an Armor Slot."
             }
           }
         },
         "sharp": {
-          "name": "Sharp",
+          "name": "Острая",
           "description": "On a successful attack against a target within Melee range, add a d4 to the damage roll.",
           "effects": {
             "sharp": {
-              "name": "Sharp",
+              "name": "Острая",
               "description": "On a successful attack against a target within Melee range, add a d4 to the damage roll."
             }
           }
         },
         "shifting": {
-          "name": "Shifting",
+          "name": "Скользящая",
           "description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage.",
           "actions": {
             "shift": {
-              "name": "Shift",
+              "name": "Скользящая",
               "description": "When you are targeted for an attack, you can mark an Armor Slot to give the attack roll against you disadvantage."
             }
           }
         },
         "timeslowing": {
-          "name": "Timeslowing",
+          "name": "Замедление времени",
           "description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack.",
           "actions": {
             "slowTime": {
-              "name": "Slow Time",
+              "name": "Замедление времени",
               "description": "Mark an Armor Slot to roll a d4 and add its result as a bonus to your Evasion against an incoming attack."
             }
           }
         },
         "truthseeking": {
-          "name": "Truthseeking",
+          "name": "Разоблачающая",
           "description": "This armor glows when another creature within Close range tells a lie.",
           "actions": {
             "truthseeking": {
-              "name": "Truthseeking",
+              "name": "Разоблачающая",
               "description": "This armor glows when another creature within Close range tells a lie."
             }
           }
         },
         "veryHeavy": {
-          "name": "Very Heavy",
+          "name": "Очень тяжёлая",
           "description": "-2 to Evasion; -1 to Agility",
           "effects": {
             "veryHeavy": {
-              "name": "Very Heavy",
+              "name": "Очень тяжёлая",
               "description": "-2 to Evasion; -1 to Agility"
             }
           }
         },
         "warded": {
-          "name": "Warded",
+          "name": "Зачарованная",
           "description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds.",
           "effects": {
             "warded": {
-              "name": "Warded",
+              "name": "Зачарованная",
               "description": "You reduce incoming magic damage by your Armor Score before applying it to your damage thresholds."
             }
           }
@@ -1618,36 +1618,36 @@
     "EFFECTS": {
       "ApplyLocations": {
         "attackRoll": {
-          "name": "Attack Roll"
+          "name": "Бросок атаки"
         },
         "damageRoll": {
-          "name": "Damage Roll"
+          "name": "Бросок урона"
         },
         "healingRoll": {
-          "name": "Healing Roll"
+          "name": "Бросок лечения"
         }
       },
       "Duration": {
-        "passive": "Passive",
-        "temporary": "Temporary"
+        "passive": "Постоянный",
+        "temporary": "Временный"
       },
       "Types": {
         "damage": {
-          "name": "Damage"
+          "name": "Урон"
         },
         "hitPoints": {
-          "name": "Hit Points"
+          "name": "Очки здоровья"
         },
         "reach": {
-          "name": "Reach"
+          "name": "Дистанция"
         },
         "stress": {
-          "name": "Stress"
+          "name": "Стресс"
         }
       },
       "Attachments": {
-        "attachHint": "Drop items here to attach them",
-        "transferHint": "If checked, this effect will be applied to any actor that owns this Effect's parent Item. The effect is always applied if this Item is attached to another one."
+        "attachHint": "Перетащите предметы сюда, чтобы прикрепить их",
+        "transferHint": "Если отмечено, этот эффект будет применяться к любому персонажу, которому принадлежит родительский предмет эффекта. Эффект всегда применяется, если этот предмет прикреплён к другому."
       }
     },
     "GENERAL": {
@@ -2362,140 +2362,140 @@
     "UI": {
       "Chat": {
         "action": {
-          "title": "Action"
+          "title": "Действие"
         },
         "applyEffect": {
-          "title": "Apply Effects - {name}"
+          "title": "Применить эффекты - {name}"
         },
         "attackRoll": {
-          "title": "Attack - {attack}",
-          "rollDamage": "Roll Damage",
-          "rollHealing": "Roll Healing",
-          "applyEffect": "Apply Effects"
+          "title": "Атака  - {attack}",
+          "rollDamage": "Бросок урона",
+          "rollHealing": "Бросок исцеления",
+          "applyEffect": "Применить эффекты"
         },
         "damageRoll": {
-          "title": "Damage - {damage}",
-          "dealDamageToTargets": "Damage Hit Targets",
-          "dealDamage": "Deal Damage",
-          "rollDamage": "Roll Damage",
-          "hitTarget": "Hit",
-          "selectedTarget": "Selected",
-          "currentTarget": "Current"
+          "title": "Урон - {damage}",
+          "dealDamageToTargets": "Нанести урон выбранным целям",
+          "dealDamage": "Нанести урон",
+          "rollDamage": "Бросок урона",
+          "hitTarget": "Попадание",
+          "selectedTarget": "Выбрана",
+          "currentTarget": "Текущая"
         },
         "deathMove": {
-          "title": "Death Move"
+          "title": "Смертельный приём"
         },
         "dicePool": {
-          "title": "Dice Pool"
+          "title": "Пул костей"
         },
         "domainCard": {
-          "title": "Domain Card"
+          "title": "Карточка домена"
         },
         "dualityRoll": {
-          "abilityCheckTitle": "{ability} Check"
+          "abilityCheckTitle": "Проверка  {ability}"
         },
-        "featureTitle": "Class Feature",
+        "featureTitle": "Классовое свойство",
         "healingRoll": {
-          "title": "Heal - {damage}",
-          "heal": "Heal",
-          "applyHealing": "Apply Healing"
+          "title": "Лечение - {damage}",
+          "heal": "Вылечить",
+          "applyHealing": "Применить лечение"
         },
         "reroll": {
-          "confirmTitle": "Reroll Dice",
-          "confirmText": "Are you sure you want to reroll?"
+          "confirmTitle": "Переброс костей",
+          "confirmText": "Вы уверены, что хотите перебросить?"
         },
         "resourceRoll": {
           "playerMessage": "{user} rerolled their {name}"
         }
       },
       "Notifications": {
-        "adversaryMissing": "The linked adversary doesn't exist in the world.",
-        "beastformInapplicable": "A beastform can only be applied to a Character.",
-        "beastformAlreadyApplied": "The character already has a beastform applied!",
-        "noTargetsSelected": "No targets are selected.",
-        "attackTargetDoesNotExist": "The target token no longer exists",
+        "adversaryMissing": "Указанный противник не существует в этом мире.",
+        "beastformInapplicable": "Звериная форма может быть применена только к персонажу.",
+        "beastformAlreadyApplied": "Персонаж уже находится в звериной форме!",
+        "noTargetsSelected": "Цели не выбраны.",
+        "attackTargetDoesNotExist": "Цель атаки больше не существует.",
         "insufficentAdvancements": "You don't have enough advancements left.",
-        "noAssignedPlayerCharacter": "You have no assigned character.",
-        "noSelectedToken": "You have no selected token",
-        "onlyUseableByPC": "This can only be used with a PC token",
-        "dualityParsing": "Duality roll not properly formated",
-        "attributeFaulty": "The supplied Attribute doesn't exist",
-        "domainCardWrongDomain": "You don't have access to that Domain",
-        "domainCardToHighLevel": "The Domain Card is too high level to be selected",
-        "domainCardDuplicate": "You already have that domain card!",
-        "noSelectionsLeft": "Nothing more to select!",
-        "alreadySelectedClass": "You already have that class!",
-        "classAlreadySelected": "The character already has a class",
-        "subclassAlreadySelected": "The character already has a subclass for that class.",
-        "noClassSelected": "Your character has no class selected!",
-        "lacksDomain": "Your character doesn't have the domain of the card!",
-        "duplicateDomainCard": "You already have a domain card with that name!",
-        "missingClassOrSubclass": "The character doesn't have a class and subclass",
-        "tooHighLevel": "You cannot raise the character level past the maximum",
-        "tooLowLevel": "You cannot lower the character level below starting level",
-        "subclassNotInClass": "This subclass does not belong to your selected class.",
-        "subclassNotInMulticlass": "This subclass does not belong to your selected multiclass.",
-        "missingClass": "You don't have a class selected yet.",
-        "missingMulticlass": "Missing multiclass",
-        "wrongDomain": "The card isn't from one of your class domains.",
-        "cardTooHighLevel": "The card is too high level!",
-        "duplicateCard": "You cannot select the same card more than once.",
-        "notPrimary": "The weapon is not a primary weapon!",
-        "notSecondary": "The weapon is not a secondary weapon!",
-        "itemTooHighTier": "The item must be from Tier1",
-        "primaryIsTwoHanded": "Cannot select a secondary weapon with a two-handed primary!",
+        "noAssignedPlayerCharacter": "У вас нет назначенного персонажа.",
+        "noSelectedToken": "Вы не выбрали токен.",
+        "onlyUseableByPC": "Можно использовать только с токеном персонажа игрока.",
+        "dualityParsing": "Бросок дуальности выполнен неправильно.",
+        "attributeFaulty": "Указанный атрибут не существует.",
+        "domainCardWrongDomain": "У вас нет доступа к этому домену.",
+        "domainCardToHighLevel": "Карточка домена слишком высокого уровня, чтобы её выбрать.",
+        "domainCardDuplicate": "У вас уже есть такая карточка домена!",
+        "noSelectionsLeft": "Больше нечего выбирать!",
+        "alreadySelectedClass": "У вас уже есть этот класс!",
+        "classAlreadySelected": "У персонажа уже выбран класс.",
+        "subclassAlreadySelected": "У персонажа уже выбрано подкласса для этого класса.",
+        "noClassSelected": "У вашего персонажа не выбран класс!",
+        "lacksDomain": "У вашего персонажа нет домена этой карточки!",
+        "duplicateDomainCard": "У вас уже есть карточка домена с таким названием!",
+        "missingClassOrSubclass": "У персонажа нет класса и подкласса.",
+        "tooHighLevel": "Вы не можете повысить уровень персонажа выше максимума.",
+        "tooLowLevel": "Вы не можете понизить уровень персонажа ниже стартового.",
+        "subclassNotInClass": "Этот подкласс не принадлежит выбранному вами классу.",
+        "subclassNotInMulticlass": "Этот подкласс не принадлежит выбранному вами мультиклассу.",
+        "missingClass": "Вы еще не выбрали класс.",
+        "missingMulticlass": "Мультикласс отсутствует.",
+        "wrongDomain": "Карточка не относится к какому-либо из доменов вашего класса.",
+        "cardTooHighLevel": "Карточка слишком высокого уровня!",
+        "duplicateCard": "Вы не можете выбрать одну и ту же карточку более одного раза.",
+        "notPrimary": "Оружие не является основным!",
+        "notSecondary": "Оружие не является дополнительным!",
+        "itemTooHighTier": "Предмет должен быть 1 тира.",
+        "primaryIsTwoHanded": "Нельзя выбрать дополнительное оружие при основном двуручном!",
         "noMoreMoves": "You cannot select any more downtime moves",
-        "damageAlreadyNone": "The damage has already been reduced to none",
-        "noAvailableArmorMarks": "You have no more available armor marks",
-        "notEnoughStress": "You don't have enough stress",
-        "damageIgnore": "{character} did not take damage",
-        "featureIsMissing": "Feature is missing",
-        "actionIsMissing": "Action is missing",
-        "attackIsMissing": "Attack is missing",
-        "unownedActionMacro": "Cannot make a Use macro for an Action not on your character",
-        "unownedAttackMacro": "Cannot make a Use macro for an Attack that doesn't belong to one of your characters",
-        "featureNotHope": "This feature is used as something else than a Hope feature and cannot be used here.",
-        "featureNotClass": "This feature is used as something else than a Class feature and cannot be used here.",
-        "featureNotPrimary": "This feature is used as something else than a Primary feature and cannot be used here.",
-        "featureNotSecondary": "This feature is used as something else than a Secondary feature and cannot be used here.",
-        "featureNotFoundation": "This feature is used as something else than a Foundation feature and cannot be used here.",
-        "featureNotSpecialization": "This feature is used as something else than a Specialization feature and cannot be used here.",
-        "featureNotMastery": "This feature is used as something else than a Mastery feature and cannot be used here.",
-        "beastformMissingEffect": "The Beastform is missing a Beastform Effect. Cannot be used.",
-        "beastformToManyAdvantages": "You cannot select any more advantages.",
-        "beastformToManyFeatures": "You cannot select any more features.",
-        "beastformEquipWeapon": "You cannot use weapons while in a Beastform.",
-        "loadoutMaxReached": "You've reached maximum loadout. Move atleast one domain card to the vault, or increase the limit in homebrew settings if desired.",
-        "domainMaxReached": "You've reached the maximum domains for the class. Increase the limit in homebrew settings if desired.",
-        "insufficientResources": "You have insufficient resources",
-        "multiclassAlreadyPresent": "You already have a class and multiclass",
-        "subclassesAlreadyPresent": "You already have a class and multiclass subclass",
-        "noDiceSystem": "Your selected dice {system} does not have a {faces} dice"
+        "damageAlreadyNone": "Урон уже снижен до нуля.",
+        "noAvailableArmorMarks": "У вас больше нет доступных меток доспеха.",
+        "notEnoughStress": "У вас недостаточно стресса",
+        "damageIgnore": "{character} не получил урона.",
+        "featureIsMissing": "Свойство отсутствует.",
+        "actionIsMissing": "Отсутствует действие.",
+        "attackIsMissing": "Отсутствует атака.",
+        "unownedActionMacro": "Невозможно создать макрос «Использовать» для действия, которого нет у вашего персонажа.",
+        "unownedAttackMacro": "Невозможно создать макрос «Использовать» для атаки, которая не принадлежит ни одному из ваших персонажей.",
+        "featureNotHope": "Эта свойство используется не как свойство Надежды и не может быть применено здесь.",
+        "featureNotClass": "Эта свойство используется не как классовое и не может быть применено здесь.",
+        "featureNotPrimary": "Эта свойство используется не как основное и не может быть применено здесь.",
+        "featureNotSecondary": "Эта свойство используется не как дополнительное и не может быть применено здесь.",
+        "featureNotFoundation": "Эта свойство используется не как базовое и не может быть применено здесь.",
+        "featureNotSpecialization": "Эта свойство используется не как свойство специализации и не может быть применено здесь.",
+        "featureNotMastery": "Эта способность используется не как свойство мастерства и не может быть применено здесь.",
+        "beastformMissingEffect": "У звериной формы отсутствует эффект звериной формы. Невозможно использовать.",
+        "beastformToManyAdvantages": "Вы не можете выбрать больше преимуществ.",
+        "beastformToManyFeatures": "Вы не можете выбрать больше свойств.",
+        "beastformEquipWeapon": "Вы не можете использовать оружие в звериной форме.",
+        "loadoutMaxReached": "You've reached maximum loadout. Переместите хотя бы одну карту домена в хранилище или увеличьте лимит в настройках homebrew, если хотите.",
+        "domainMaxReached": "Вы достигли максимального количества доменов для класса. При желании увеличьте лимит в настройках homebrew.",
+        "insufficientResources": "Недостаточно ресурсов.",
+        "multiclassAlreadyPresent": "У вас уже есть класс и мультикласс.",
+        "subclassesAlreadyPresent": "У вас уже есть класс и подкласс мультикласса.",
+        "noDiceSystem": "Выбранная вами кость {system} не имеет {faces} костей."
       },
       "Tooltip": {
-        "disableEffect": "Disable Effect",
-        "enableEffect": "Enable Effect",
+        "disableEffect": "Отключить эффект",
+        "enableEffect": "Включить эффект",
         "openItemWorld": "Open Item World",
         "openActorWorld": "Open Actor World",
-        "sendToChat": "Send to Chat",
-        "maxEvasionClassBound": "Your Evasion base is set on your class. This is the increase ontop of that.",
-        "maxHPClassBound": "Your max HP base is set on your class. This is the increase ontop of that.",
-        "moreOptions": "More Options",
-        "equip": "Equip",
-        "unequip": "Unequip",
-        "sendToVault": "Send to Vault",
-        "sendToLoadout": "Send to Loadout",
-        "makeDeathMove": "Make a Death Move",
-        "rangeAndTarget": "Range & Target",
-        "dragApplyEffect": "Drag effect to apply it to an actor",
-        "appliedEvenIfSuccessful": "Applied even if save succeeded",
-        "diceIsRerolled": "The dice has been rerolled (x{times})",
-        "pendingSaves": "Pending Reaction Rolls",
-        "openSheetSettings": "Open Settings",
-        "compendiumBrowser": "Compendium Browser",
-        "rulesOn": "Rules On",
-        "rulesOff": "Rules Off",
-        "remainingUses": "Uses refresh on {type}"
+        "sendToChat": "Отправить в чат",
+        "maxEvasionClassBound": "Базовое уклонение определяется вашим классом. Это прибавка сверх него.",
+        "maxHPClassBound": "Максимальные ОЗ определяются вашим классом. Это прибавка сверх них.",
+        "moreOptions": "Больше опций",
+        "equip": "Экипировать",
+        "unequip": "Снять",
+        "sendToVault": "Отправить в хранилище",
+        "sendToLoadout": "Отправить в снаряжение",
+        "makeDeathMove": "Совершить смертельный приём",
+        "rangeAndTarget": "Дистанция и цель",
+        "dragApplyEffect": "Перетащите эффект, чтобы применить его к персонажу",
+        "appliedEvenIfSuccessful": "Применяется даже в случае успешного спасброска",
+        "diceIsRerolled": "Кость была переброшена (x{times})",
+        "pendingSaves": "Ожидающие броски реакции",
+        "openSheetSettings": "Открыть настройки",
+        "compendiumBrowser": "Браузер компендиума",
+        "rulesOn": "Правила включены",
+        "rulesOff": "Правила выключены",
+        "remainingUses": "Использования восстанавливаются при событии {type}"
       }
     }
   }
