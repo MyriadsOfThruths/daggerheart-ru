@@ -320,9 +320,9 @@
       },
       "CombatTracker": {
         "combatStarted": "Активно",
-        "giveSpotlight": "Передать внимание",
-        "requestingSpotlight": "Запрашивает внимание",
-        "requestSpotlight": "Запросить внимание"
+        "giveSpotlight": "Передать активацию",
+        "requestingSpotlight": "Запрашивает активацию",
+        "requestSpotlight": "Запросить активацию"
       },
       "ContextMenu": {
         "disableEffect": "Отключить эффект",
@@ -1105,511 +1105,511 @@
       "WeaponFeature": {
         "barrier": {
           "name": "Барьер",
-          "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion",
+          "description": "Получите (Тир оружия + 1) к Значению Брони; −1 к Уклонению.",
           "effects": {
             "barrier": {
               "name": "Барьер",
-              "description": "Gain Weapon Tier + 1 to Armor Score; -1 to Evasion"
+              "description": "Получите (Тир оружия + 1) к Значению Брони; −1 к Уклонению."
             }
           }
         },
         "bonded": {
           "name": "Связанное",
-          "description": "Gain a bonus to your damage rolls equal to your level.",
+          "description": "Получите бонус к броскам урона, равный вашему Уровню.",
           "effects": {
             "damage": {
               "name": "Связь с оружием",
-              "description": "Gain a bonus to your damage rolls equal to your level."
+              "description": "Получите бонус к броскам урона, равный вашему Уровню."
             }
           }
         },
         "bouncing": {
           "name": "Рикошет",
-          "description": "Mark 1 or more Stress to hit that many targets in range of the attack.",
+          "description": "Отметьте 1 или более Стресса, чтобы поразить столько же целей в пределах дистанции атаки.",
           "actions": {
             "bounce": {
               "name": "Отскок",
-              "description": "Mark 1 or more Stress to hit that many targets in range of the attack."
+              "description": "Отметьте 1 или более Стресса, чтобы поразить столько же целей в пределах дистанции атаки."
             }
           }
         },
         "brave": {
           "name": "Храброе",
-          "description": "-1 to Evasion; + Weapon Tier to Severe damage threshold",
+          "description": "−1 к Уклонению; +(Тир оружия) к порогу Тяжёлого урона.",
           "effects": {
             "brave": {
               "name": "Храброе",
-              "description": "-1 to Evasion; + Weapon Tier to Severe damage threshold"
+              "description": "−1 к Уклонению; +(Тир оружия) к порогу Тяжёлого урона."
             }
           }
         },
         "brutal": {
           "name": "Жестокое",
-          "description": "When you roll the maximum value on a damage die, roll an additional damage die.",
+          "description": "Когда на кости урона выпадает максимальное значение, бросьте дополнительную кость урона.",
           "actions": {
             "addDamage": {
               "name": "Жестокое",
-              "description": "When you roll the maximum value on a damage die, roll an additional damage die."
+              "description": "Когда на кости урона выпадает максимальное значение, бросьте дополнительную кость урона."
             }
           }
         },
         "burning": {
           "name": "Горящее",
-          "description": "When you roll the maximum value on a damage die, roll an additional damage die.",
+          "description": "Когда на кости урона выпадает 6, цель должна получить Стресс.",
           "actions": {
             "burn": {
               "name": "Сжечь",
-              "description": "When you roll a 6 on a damage die, the target must mark a Stress."
+              "description": "Когда на кости урона выпадает 6, цель должна получить Стресс."
             }
           }
         },
         "charged": {
           "name": "Заряжаемое",
-          "description": "Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack.",
+          "description": "Отметьте Стресс, чтобы получить +1 к Мастерству при атаке основным оружием.",
           "actions": {
             "markStress": {
               "name": "Заряд",
-              "description": "Mark a Stress to gain a +1 bonus to your Proficiency on a primary weapon attack."
+              "description": "Отметьте Стресс, чтобы получить +1 к Мастерству при атаке основным оружием."
             }
           },
           "effects": {
             "charged": {
               "name": "Заряжаемое",
-              "description": "Gain a +1 bonus to your Proficiency on a primary weapon attack."
+              "description": "Получаете +1 к Мастерству при атаке основным оружием."
             }
           }
         },
         "concussive": {
           "name": "Ударная волна",
-          "description": "On a successful attack, you can spend a Hope to knock the target back to Far range.",
+          "description": "При успешной атаке вы можете потратить Надежду, чтобы отбросить цель на Дальнюю дистанцию.",
           "actions": {
             "attack": {
-              "name": "Сотрясение",
-              "description": "On a successful attack, you can spend a Hope to knock the target back to Far range."
+              "name": "Отбрасывание",
+              "description": "При успешной атаке вы можете потратить Надежду, чтобы отбросить цель на Дальнюю дистанцию."
             }
           }
         },
         "cumbersome": {
           "name": "Громоздкое",
-          "description": "-1 to Finesse",
+          "description": "−1 к Искусности.",
           "effects": {
             "cumbersome": {
               "name": "Громоздкое",
-              "description": "-1 to Finesse"
+              "description": "−1 к Искусности."
             }
           }
         },
         "deadly": {
           "name": "Смертоносное",
-          "description": "When you deal Severe damage, the target must mark an additional HP.",
+          "description": "Когда вы наносите Тяжёлый урон, цель должна получить дополнительную Рану.",
           "actions": {
             "extraDamage": {
               "name": "Смертоносное",
-              "description": "When you deal Severe damage, the target must mark an additional HP."
+              "description": "Когда вы наносите Тяжёлый урон, цель должна получить дополнительную Рану."
             }
           }
         },
         "deflecting": {
           "name": "Отражающее",
-          "description": "When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your Armor Score against the attack.",
+          "description": "Когда вас атакуют, вы можете потратить Ячейку Брони, чтобы получить бонус к Уклонению против этой атаки, равный вашему Значению Брони.",
           "actions": {
             "deflect": {
               "name": "Отражение",
-              "description": "When you are attacked, you can mark an Armor Slot to gain a bonus to your Evasion equal to your Armor Score against the attack."
+              "description": "Когда вас атакуют, вы можете потратить Ячейку Брони, чтобы получить бонус к Уклонению против этой атаки, равный вашему Значению Брони."
             }
           },
           "effects": {
             "deflecting": {
               "name": "Отражающее",
-              "description": "Gain a bonus to your Evasion equal to your Armor Score against the attack"
+              "description": "Даёт бонус к Уклонению против атаки, равный вашему Значению Брони."
             }
           }
         },
         "destructive": {
           "name": "Ужасающие",
-          "description": "-1 to Agility; on a successful attack, all adversaries within Very Close range must mark a Stress.",
+          "description": "−1 к Проворности; при успешной атаке все противники в пределах Очень Близкой дистанции получают Стресс.",
           "actions": {
             "attack": {
               "name": "Ужас",
-              "description": "On a successful attack, all adversaries within Very Close range must mark a Stress."
+              "description": "При успешной атаке все противники в пределах Очень Близкой дистанции получают Стресс."
             }
           },
           "effects": {
             "agility": {
               "name": "Ужасающие",
-              "description": "-1 to Agility"
+              "description": "−1 к Проворности."
             }
           }
         },
         "devastating": {
           "name": "Разрушительное",
-          "description": "Before you make an attack roll, you can mark a Stress to use a d20 as your damage die.",
+          "description": "Перед броском атаки вы можете отметить Стресс, чтобы использовать d20 в качестве кости урона.",
           "actions": {
             "devastate": {
               "name": "Разрушить",
-              "description": "Before you make an attack roll, you can mark a Stress to use a d20 as your damage die."
+              "description": "Перед броском атаки вы можете отметить Стресс, чтобы использовать d20 в качестве кости урона."
             }
           }
         },
         "doubleDuty": {
           "name": "Двойное назначение",
-          "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range",
+          "description": "+1 к Значению Брони; +1 к урону основного оружия по целям Вплотную.",
           "effects": {
             "doubleDuty": {
               "name": "Двойное назначение",
-              "description": "+1 to Armor Score; +1 to primary weapon damage within Melee range"
+              "description": "+1 к Значению Брони; +1 к урону основного оружия по целям Вплотную."
             }
           }
         },
         "doubledUp": {
           "name": "Двойной удар",
-          "description": "When you make an attack with your primary weapon, you can deal damage to another target within Melee range.",
+          "description": "Когда вы совершаете атаку основным оружием, вы можете нанести урон дополнительной цели Вплотную.",
           "actions": {
             "doubleUp": {
               "name": "Двойной удар",
-              "description": "When you make an attack with your primary weapon, you can deal damage to another target within Melee range."
+              "description": "Когда вы совершаете атаку основным оружием, вы можете нанести урон дополнительной цели Вплотную."
             }
           }
         },
         "dueling": {
           "name": "Дуэльное",
-          "description": "When there are no other creatures within Close range of the target, gain advantage on your attack roll against them.",
+          "description": "Если в пределах Ближней дистанции от цели нет других существ, получите преимущество на бросок атаки против неё.",
           "actions": {
             "duel": {
               "name": "Дуэль",
-              "description": "When there are no other creatures within Close range of the target, gain advantage on your attack roll against them."
+              "description": "Если в пределах Ближней дистанции от цели нет других существ, получите преимущество на бросок атаки против неё."
             }
           }
         },
         "eruptive": {
           "name": "Взрывное",
-          "description": "On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage.",
+          "description": "При успешной атаке по цели Вплотную все прочие противники в пределах Очень Близкой дистанции должны совершить бросок реакции (14) или получить половину урона.",
           "actions": {
             "erupt": {
               "name": "Взрыв",
-              "description": "On a successful attack against a target within Melee range, all other adversaries within Very Close range must succeed on a reaction roll (14) or take half damage."
+              "description": "При успешной атаке по цели во Вплотную все прочие противники в пределах Очень Близкой дистанции должны совершить бросок реакции (14) или получить половину урона."
             }
           }
         },
         "grappling": {
           "name": "Захват",
-          "description": "On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you.",
+          "description": "При успешной атаке вы можете потратить Надежду, чтобы Сковать цель или притянуть её Вплотную к себе.",
           "actions": {
             "grapple": {
               "name": "Захват",
-              "description": "On a successful attack, you can spend a Hope to Restrain the target or pull them into Melee range with you."
+              "description": "При успешной атаке вы можете потратить Надежду, чтобы Сковать цель или притянуть её Вплотную к себе."
             }
           }
         },
         "greedy": {
           "name": "Жадное",
-          "description": "Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll.",
+          "description": "Потратьте горсть золота, чтобы получить +1 к Мастерству при броске урона.",
           "actions": {
             "greed": {
               "name": "Жадность",
-              "description": "Spend a handful of gold to gain a +1 bonus to your Proficiency on a damage roll."
+              "description": "Потратьте горсть золота, чтобы получить +1 к Мастерству при броске урона."
             }
           }
         },
         "healing": {
           "name": "Исцеляющее",
-          "description": "During downtime, automatically clear a Hit Point.",
+          "description": "Во время Привала автоматически восстановите 1 Рану.",
           "actions": {
             "heal": {
               "name": "Исцеление",
-              "description": "During downtime, automatically clear a Hit Point."
+              "description": "Во время Привала автоматически восстановите 1 Рану."
             }
           }
         },
         "heavy": {
           "name": "Тяжёлое",
-          "description": "-1 to Evasion",
+          "description": "−1 к Уклонению",
           "effects": {
             "heavy": {
               "name": "Тяжёлое",
-              "description": "-1 to Evasion"
+              "description": "−1 к Уклонению"
             }
           }
         },
         "hooked": {
           "name": "Зацепить",
-          "description": "On a successful attack, you can pull the target into Melee range.",
+          "description": "При успешной атаке вы можете притянуть цель Вплотную к себе.",
           "actions": {
             "hook": {
               "name": "Зацепить",
-              "description": "On a successful attack, you can pull the target into Melee range."
+              "description": "При успешной атаке вы можете притянуть цель Вплотную к себе."
             }
           }
         },
         "hot": {
           "name": "Раскалённый",
-          "description": "This weapon cuts through solid material.",
+          "description": "Это оружие способно прорезать твёрдые материалы.",
           "actions": {
             "hot": {
               "name": "Раскалённый",
-              "description": "This weapon cuts through solid material."
+              "description": "Это оружие способно прорезать твёрдые материалы."
             }
           }
         },
         "invigorating": {
           "name": "Воодушевляющее",
-          "description": "On a successful attack, roll a d4. On a result of 4, clear a Stress.",
+          "description": "При успешной атаке бросьте d4; при результате «4» снимите 1 Стресс.",
           "actions": {
             "invigorate": {
               "name": "Воодушевление",
-              "description": "On a successful attack, roll a d4. On a result of 4, clear a Stress."
+              "description": "При успешной атаке бросьте d4; при результате «4» снимите 1 Стресс."
             }
           }
         },
         "lifestealing": {
           "name": "Похищение жизни",
-          "description": "On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress.",
+          "description": "При успешной атаке бросьте d6; при результате «6» восстановите 1 Рану или снимите 1 Стресс.",
           "actions": {
             "lifesteal": {
               "name": "Кража жизни",
-              "description": "On a successful attack, roll a d6. On a result of 6, clear a Hit Point or clear a Stress."
+              "description": "При успешной атаке бросьте d6; при результате «6» восстановите 1 Рану или снимите 1 Стресс."
             }
           }
         },
         "lockedOn": {
           "name": "Наводка",
-          "description": "On a successful attack, your next attack against the same target with your primary weapon automatically succeeds.",
+          "description": "При успешной атаке следующая атака по той же цели основным оружием автоматически успешна.",
           "actions": {
             "lockOn": {
               "name": "Наводка",
-              "description": "On a successful attack, your next attack against the same target with your primary weapon automatically succeeds."
+              "description": "При успешной атаке следующая атака по той же цели основным оружием автоматически успешна."
             }
           }
         },
         "long": {
           "name": "Длинное",
-          "description": "This weapon's attack targets all adversaries in a line within range.",
+          "description": "Атака этим оружием поражает всех противников на линии в пределах дистанции.",
           "actions": {
             "long": {
               "name": "Длинное",
-              "description": "This weapon's attack targets all adversaries in a line within range."
+              "description": "Атака этим оружием поражает всех противников на линии в пределах дистанции."
             }
           }
         },
         "lucky": {
           "name": "Везунчик",
-          "description": "On a failed attack, you can mark a Stress to reroll your attack.",
+          "description": "При провале атаки можете отметить Стресс, чтобы перебросить бросок атаки.",
           "actions": {
             "luck": {
               "name": "Везение",
-              "description": "On a failed attack, you can mark a Stress to reroll your attack."
+              "description": "При провале атаки можете отметить Стресс, чтобы перебросить бросок атаки."
             }
           }
         },
         "massive": {
           "name": "Массивное",
-          "description": "-1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result.",
+          "description": "−1 к Уклонению; при успешной атаке бросьте дополнительную кость урона и отбросьте результат с наименьшим значением.",
           "effects": {
             "massive": {
               "name": "Массивное",
-              "description": "-1 to Evasion; on a successful attack, roll an additional damage die and discard the lowest result."
+              "description": "−1 к Уклонению; при успешной атаке бросьте дополнительную кость урона и отбросьте результат с наименьшим значением."
             }
           }
         },
         "painful": {
           "name": "Мучительное",
-          "description": "Each time you make a successful attack, you must mark a Stress.",
+          "description": "При каждой успешной атаке необходимо отметить Стресс.",
           "actions": {
             "pain": {
               "name": "Боль",
-              "description": "Each time you make a successful attack, you must mark a Stress."
+              "description": "При каждой успешной атаке необходимо отметить Стресс."
             }
           }
         },
         "paired": {
           "name": "Парное",
-          "description": "Add your character's Tier + 1 to primary weapon damage against targets within Melee range",
+          "description": "Добавьте (Тир персонажа + 1) к урону основного оружия по находящимся вплотную целям.",
           "actions": {
             "paired": {
               "name": "Парное",
-              "description": "Add your character's Tier + 1 to primary weapon damage against targets within Melee range"
+              "description": "Добавьте (Тир персонажа + 1) к урону основного оружия по находящимся вплотную целям."
             }
           },
           "effects": {
             "paired": {
               "name": "Парное",
-              "description": "Add your character's Tier + 1 to primary weapon damage against targets within Melee range"
+              "description": "Добавьте (Тир персонажа + 1) к урону основного оружия по находящимся вплотную целям."
             }
           }
         },
         "parry": {
           "name": "Парирование",
-          "description": "When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled.",
+          "description": "Когда вас атакуют, бросьте кости урона этого оружия. Если какое-либо значение совпало с костью урона атакующего, эта кость не учитывается при подсчёте нанесённого вам урона.",
           "actions": {
             "parry": {
               "name": "Парирование",
-              "description": "When you are attacked, roll this weapon's damage dice. If any of the attacker's damage dice rolled the same value as your dice, the matching results are discarded from the attacker's damage dice before the damage you take is totaled."
+              "description": "Когда вас атакуют, бросьте кости урона этого оружия. Если какое-либо значение совпало с костью урона атакующего, эта кость не учитывается при подсчёте нанесённого вам урона."
             }
           }
         },
         "persuasive": {
           "name": "Убедительное",
-          "description": "Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result.",
+          "description": "Перед броском Влияния можно отметить Стресс, чтобы добавить +2 к результату.",
           "actions": {
             "persuade": {
               "name": "Убедить",
-              "description": "Before you make a Presence Roll, you can mark a Stress to gain a +2 bonus to the result."
+              "description": "Перед броском Влияния можно отметить Стресс, чтобы добавить +2 к результату."
             }
           },
           "effects": {
             "persuasive": {
               "name": "Убедительное",
-              "description": "Gain a +2 bonus to the Presence roll"
+              "description": "+2 к броску Влияния"
             }
           }
         },
         "pompous": {
           "name": "Напыщенное",
-          "description": "You must have a Presence of 0 or lower to use this weapon.",
+          "description": "Для использования этого оружия значение Влияния должно быть 0 или ниже.",
           "actions": {
             "pompous": {
               "name": "Напыщенное",
-              "description": "You must have a Presence of 0 or lower to use this weapon."
+              "description": "Для использования этого оружия значение Влияния должно быть 0 или ниже."
             }
           }
         },
         "powerful": {
-          "name": "Могучее",
-          "description": "On a successful attack, roll an additional damage die and discard the lowest result.",
+          "name": "Мощное",
+          "description": "При успешной атаке бросьте дополнительную кость урона и отбросьте результат с наименьшим значением.",
           "effects": {
             "powerful": {
-              "name": "Могучее",
-              "description": "On a successful attack, roll an additional damage die and discard the lowest result."
+              "name": "Мощное",
+              "description": "При успешной атаке бросьте дополнительную кость урона и отбросьте результат с наименьшим значением."
             }
           }
         },
         "protective": {
           "name": "Защитное",
-          "description": "Add your character's Tier to your Armor Score",
+          "description": "Добавьте Тир персонажа к Значению Брони.",
           "effects": {
             "protective": {
-              "name": "Защита",
-              "description": "Add your character's Tier to your Armor Score"
+              "name": "Защитное",
+              "description": "Добавляет Тир персонажа к Значению Брони."
             }
           }
         },
         "quick": {
           "name": "Быстрое",
-          "description": "When you make an attack, you can mark a Stress to target another creature within range.",
+          "description": "Когда вы совершаете атаку, можете отметить Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции.",
           "actions": {
             "quick": {
-              "name": "Быстрое",
-              "description": "When you make an attack, you can mark a Stress to target another creature within range."
+              "name": "Быстрый выпад",
+              "description": "Когда вы совершаете атаку, отметьте Стресс, чтобы нацелиться на ещё одно существо в пределах дистанции."
             }
           }
         },
         "reliable": {
           "name": "Надёжное",
-          "description": "+1 to attack rolls",
+          "description": "+1 к броскам атаки.",
           "effects": {
             "reliable": {
               "name": "Надёжное",
-              "description": "+1 to attack rolls"
+              "description": "+1 к броскам атаки."
             }
           }
         },
         "reloading": {
           "name": "Перезарядка",
-          "description": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again.",
+          "description": "После совершения атаки бросьте d6; при результате «1» отметьте Стресс, чтобы перезарядить это оружие перед следующим выстрелом.",
           "actions": {
             "reload": {
               "name": "Перезарядка",
-              "description": "After you make an attack, roll a d6. On a result of 1, you must mark a Stress to reload this weapon before you can fire it again."
+              "description": "После атаки совершения бросьте d6; при результате «1» отметьте Стресс, чтобы перезарядить это оружие перед следующим выстрелом."
             }
           }
         },
         "retractable": {
           "name": "Выдвижное",
-          "description": "The blade can be hidden in the hilt to avoid detection.",
+          "description": "Клинок можно спрятать в рукоять, чтобы избежать обнаружения.",
           "actions": {
             "retract": {
-              "name": "Втягиваться",
-              "description": "The blade can be hidden in the hilt to avoid detection."
+              "name": "Спрятать клинок",
+              "description": "Клинок можно спрятать в рукоять, чтобы избежать обнаружения."
             }
           }
         },
         "returning": {
           "name": "Возвращение",
-          "description": "When this weapon is thrown within its range, it appears in your hand immediately after the attack.",
+          "description": "Когда вы метаете это оружие в пределах его дистанции, оно появляется в вашей руке сразу после атаки.",
           "actions": {
             "return": {
-              "name": "Возвращение",
-              "description": "When this weapon is thrown within its range, it appears in your hand immediately after the attack."
+              "name": "Возврат",
+              "description": "Когда вы метаете это оружие в пределах его дистанции, оно появляется в вашей руке сразу после атаки."
             }
           }
         },
         "scary": {
           "name": "Устрашающее",
-          "description": "On a successful attack, the target must mark a Stress.",
+          "description": "При успешной атаке цель должна получить Стресс.",
           "actions": {
             "scare": {
               "name": "Запугать",
-              "description": "On a successful attack, the target must mark a Stress."
+              "description": "При успешной атаке цель должна получить Стресс."
             }
           }
         },
         "selfCorrecting": {
           "name": "Корректировка",
-          "description": "When you roll a 1 on a damage die, it deals 6 damage instead.",
+          "description": "Когда на кости урона выпадает 1, считайте её результат равным 6.",
           "effects": {
             "selfCorrecting": {
               "name": "Корректировка",
-              "description": "When you roll a 1 on a damage die, it deals 6 damage instead."
+              "description": "Когда на кости урона выпадает 1, считайте её результат равным 6."
             }
           }
         },
         "serrated": {
           "name": "Зазубренное",
-          "description": "When you roll a 1 on a damage die, it deals 8 damage instead.",
+          "description": "Когда на кости урона выпадает 1, считайте её результат равным 8.",
           "effects": {
             "serrated": {
               "name": "Зазубренное",
-              "description": "When you roll a 1 on a damage die, it deals 8 damage instead."
+              "description": "Когда на кости урона выпадает 1, считайте её результат равным 8."
             }
           }
         },
         "sharpwing": {
           "name": "Острокрыл",
-          "description": "Gain a bonus to your damage rolls equal to your Agility.",
+          "description": "Получите бонус к броскам урона, равный вашей Проворности.",
           "effects": {
             "sharpwing": {
               "name": "Острокрыл",
-              "description": "Gain a bonus to your damage rolls equal to your Agility."
+              "description": "Получите бонус к броскам урона, равный вашей Проворности."
             }
           }
         },
         "sheltering": {
           "name": "Укрывающее",
-          "description": "When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage.",
+          "description": "Когда вы отмечаете Ячейку Брони, она снижает урон для вас и всех союзников Вплотную, получивших тот же урон.",
           "actions": {
             "shelter": {
               "name": "Укрытие",
-              "description": "When you mark an Armor Slot, it reduces damage for you and all allies within Melee range of you who took the same damage."
+              "description": "Когда вы отмечаете Ячейку Брони, она снижает урон для вас и всех союзников Вплотную, получивших тот же урон."
             }
           }
         },
         "startling": {
           "name": "Пугающее",
-          "description": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range.",
+          "description": "Отметьте Стресс, чтобы неожиданно хлестнуть кнутом и отогнать всех находящихся Вплотную противников на Ближнюю дистанцию.",
           "actions": {
             "startle": {
               "name": "Напугать",
-              "description": "Mark a Stress to crack the whip and force all adversaries within Melee range back to Close range."
+              "description": "Отметьте Стресс, чтобы неожиданно хлестнуть кнутом и отогнать всех находящихся Вплотную противников на Ближнюю дистанцию."
             }
           }
         },
         "timebending": {
           "name": "Искажение времени",
-          "description": "You can choose the target of your attack after making your attack roll.",
+          "description": "Вы можете выбрать цель атаки после броска атаки.",
           "actions": {
             "bendTime": {
-              "name": "Изгиб времени",
-              "description": "You can choose the target of your attack after making your attack roll."
+              "name": "Согнуть время",
+              "description": "Выберите цель атаки после броска атаки."
             }
           }
         }
@@ -1760,42 +1760,42 @@
         "short": "Dis"
       },
       "Domain": {
-        "single": "Domain",
-        "plural": "Domains",
+        "single": "Домен",
+        "plural": "Домены",
         "arcana": {
-          "label": "Arcana",
+          "label": "Аркана",
           "description": "This is the domain of the innate or instinctual use of magic. Those who walk this path tap into the raw, enigmatic forces of the realms to manipulate both the elements and their own energy. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled."
         },
         "blade": {
-          "label": "Blade",
+          "label": "Клинок",
           "description": "This is the domain of those who dedicate their lives to the mastery of weapons. Whether by blade, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Blade requires study and dedication from its followers, in exchange for inexorable power over death."
         },
         "bone": {
-          "label": "Bone",
+          "label": "Кость",
           "description": "This is the domain of mastery of swiftness and tactical mastery. Practitioners of this domain have an uncanny control over their own physical abilities, and an eye for predicting the behaviors of others in combat. Bone grants its adherents unparalleled understanding of bodies and their movements in exchange for diligent training."
         },
         "codex": {
-          "label": "Codex",
+          "label": "Кодекс",
           "description": "This is the domain of intensive magical study. Those who seek magical knowledge turn to the recipes of power recorded in books, on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to those devotees who are willing to seek beyond the common knowledge."
         },
         "grace": {
-          "label": "Grace",
+          "label": "Изящество",
           "description": "This is the domain of charisma. Through rapturous storytelling, clever charm, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language."
         },
         "midnight": {
-          "label": "Midnight",
+          "label": "Полночь",
           "description": "This is the domain of shadows and secrecy. Whether by clever tricks, or cloak of night those who channel these forces are practiced in that art of obscurity and there is nothing hidden they cannot reach. Midnight offers practitioners the incredible power to control and create enigmas."
         },
         "sage": {
-          "label": "Sage",
+          "label": "Мудрость",
           "description": "This is the domain of the natural world. Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and ferocity of a hungry predator."
         },
         "splendor": {
-          "label": "Splendor",
+          "label": "Величие",
           "description": "This is the domain of life. Through this magic, followers gain the ability to heal, though such power also grants the wielder some control over death. Splendor offers its disciples the magnificent ability to both give and end life."
         },
         "valor": {
-          "label": "Valor",
+          "label": "Доблесть",
           "description": "This is the domain of protection. Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shield in defense of others."
         }
       },
