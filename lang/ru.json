@@ -1658,7 +1658,7 @@
       "Advantage": {
         "full": "Преимущество",
         "plural": "Преимущества",
-        "short": "Adv"
+        "short": "Преим."
       },
       "Adversary": {
         "singular": "Противник",
@@ -1666,30 +1666,30 @@
       },
       "Bonuses": {
         "rest": {
-          "downtimeAction": "Действие во время отдыха",
+          "downtimeAction": "Действие во время Привала",
           "shortRest": {
             "shortRestMoves": {
-              "label": "Short Rest: Bonus Short Rest Moves",
-              "hint": "The number of extra Short Rest Moves the character can take during a Short Rest."
+              "label": "Короткий отдых: дополнительные ходы короткого отдыха",
+              "hint": "Число дополнительных ходов короткого отдыха, которые персонаж может выполнить во время Короткого отдыха."
             },
             "longRestMoves": {
-              "label": "Short Rest: Bonus Long Rest Moves",
-              "hint": "The number of extra Long Rest Moves the character can take during a Short Rest."
+              "label": "Короткий отдых: дополнительные ходы долгого отдыха",
+              "hint": "Число дополнительных ходов долгого отдыха, которые персонаж может выполнить во время Короткого отдыха."
             }
           },
           "longRest": {
             "shortRestMoves": {
-              "label": "Long Rest: Bonus Short Rest Moves",
-              "hint": "The number of extra Short Rest Moves the character can take during a Long Rest."
+              "label": "Долгий отдых: дополнительные ходы короткого отдыха",
+              "hint": "Число дополнительных ходов короткого отдыха, которые персонаж может выполнить во время Долгого отдыха."
             },
             "longRestMoves": {
-              "label": "Long Rest: Bonus Long Rest Moves",
-              "hint": "The number of extra Long Rest Moves the character can take during a Long Rest."
+              "label": "Долгий отдых: дополнительные ходы долгого отдыха",
+              "hint": "Число дополнительных ходов долгого отдыха, которые персонаж может выполнить во время Долгого отдыха."
             }
           }
         },
         "maxLoadout": {
-          "label": "Max Loadout Cards Bonus"
+          "label": "Бонус к максимуму карт снаряжения"
         }
       },
       "Character": {
@@ -1757,46 +1757,46 @@
       },
       "Disadvantage": {
         "full": "Помеха",
-        "short": "Dis"
+        "short": "Пом."
       },
       "Domain": {
         "single": "Домен",
         "plural": "Домены",
         "arcana": {
           "label": "Аркана",
-          "description": "This is the domain of the innate or instinctual use of magic. Those who walk this path tap into the raw, enigmatic forces of the realms to manipulate both the elements and their own energy. Arcana offers wielders a volatile power, but it is incredibly potent when correctly channeled."
+          "description": "Это домен врождённого или инстинктивного использования магии. Те, кто идут этим путём, черпают силу из первозданных, загадочных сил миров, чтобы управлять и стихиями, и собственной энергией. Аркана предлагает своим носителям нестабильную силу, но невероятно мощную при правильном использовании."
         },
         "blade": {
           "label": "Клинок",
-          "description": "This is the domain of those who dedicate their lives to the mastery of weapons. Whether by blade, bow, or perhaps a more specialized arm, those who follow this path have the skill to cut short the lives of others. Blade requires study and dedication from its followers, in exchange for inexorable power over death."
+          "description": "Это домен тех, кто посвятил свою жизнь мастерству владения оружием. Будь то клинок, лук или, возможно, более специализированное оружие, те, кто идут по этому пути, обладают навыками, позволяющими лишать других жизни. Клинок требует от своих последователей изучения и преданности, в обмен на неопровержимую власть над смертью."
         },
         "bone": {
           "label": "Кость",
-          "description": "This is the domain of mastery of swiftness and tactical mastery. Practitioners of this domain have an uncanny control over their own physical abilities, and an eye for predicting the behaviors of others in combat. Bone grants its adherents unparalleled understanding of bodies and their movements in exchange for diligent training."
+          "description": "Это домен, связанный с владением скоростью и тактическим мастерством. Практикующие этот домен обладают необычайным контролем над своими физическими способностями и умением предсказывать поведение других в бою. Кость дарует своим последователям беспрецедентное понимание тела и его движений в обмен на усердные тренировки."
         },
         "codex": {
           "label": "Кодекс",
-          "description": "This is the domain of intensive magical study. Those who seek magical knowledge turn to the recipes of power recorded in books, on scrolls, etched into walls, or tattooed on bodies. Codex offers a commanding and versatile understanding of magic to those devotees who are willing to seek beyond the common knowledge."
+          "description": "Это домен интенсивного изучения магии. Те, кто стремятся к магическим знаниям, обращаются к формулам силы, записанным в книгах, на свитках, высечённым на стенах или вытатуированным на телах. Кодекс предлагает глубокое и универсальное понимание магии тем преданным последователям, которые готовы искать знания за пределами общепринятых представлений."
         },
         "grace": {
           "label": "Изящество",
-          "description": "This is the domain of charisma. Through rapturous storytelling, clever charm, or a shroud of lies, those who channel this power define the realities of their adversaries, bending perception to their will. Grace offers its wielders raw magnetism and mastery over language."
+          "description": "Это домен харизмы. С помощью захватывающего повествования, изящного обаяния или завесы лжи те, кто направляют эту силу, определяют реальность своих противников, подчиняя восприятие своей воле. Изящество дарует своим обладателям природную притягательность и мастерство владения языком."
         },
         "midnight": {
           "label": "Полночь",
-          "description": "This is the domain of shadows and secrecy. Whether by clever tricks, or cloak of night those who channel these forces are practiced in that art of obscurity and there is nothing hidden they cannot reach. Midnight offers practitioners the incredible power to control and create enigmas."
+          "description": "Это домен теней и тайны. Будь то хитрые уловки или действия под покровом ночи, те, кто направляют эти силы, владеют искусством скрытности, и нет ничего тайного, чего бы они не могли достичь. Полночь дарит практикующим невероятную силу контролировать и создавать загадки."
         },
         "sage": {
           "label": "Мудрость",
-          "description": "This is the domain of the natural world. Those who walk this path tap into the unfettered power of the earth and its creatures to unleash raw magic. Sage grants its adherents the vitality of a blooming flower and ferocity of a hungry predator."
+          "description": "Это домен мира природы. Те, кто идут этим путём, черпают необузданную силу земли и её созданий, чтобы высвободить первозданную магию. Мудрость дарует своим последователям жизненную силу распускающегося цветка и свирепость голодного хищника."
         },
         "splendor": {
           "label": "Величие",
-          "description": "This is the domain of life. Through this magic, followers gain the ability to heal, though such power also grants the wielder some control over death. Splendor offers its disciples the magnificent ability to both give and end life."
+          "description": "Это домен жизни. Благодаря этой магии последователи обретают способность исцелять, хотя такая сила также дает владеющему ею некоторое влияние на смерть. Величие предлагает своим ученикам чудесную способность как даровать жизнь, так и лишать её."
         },
         "valor": {
           "label": "Доблесть",
-          "description": "This is the domain of protection. Whether through attack or defense, those who choose this discipline channel formidable strength to protect their allies in battle. Valor offers great power to those who raise their shield in defense of others."
+          "description": "Это домен защиты. Будь то атака или оборона, те, кто выбирают эту дисциплину, направляют свою невероятную силу на защиту союзников в бою. Доблесть дарует великую силу тем, кто поднимает свой щит на защиту других."
         }
       },
       "Effect": {
@@ -1808,7 +1808,7 @@
         "plural": "Опыт"
       },
       "Healing": {
-        "healingAmount": "Healing Amount"
+        "healingAmount": "Значение лечения"
       },
       "Modifier": {
         "single": "Модификатор",
