@@ -2092,11 +2092,11 @@
         "secondaryFeature": "Дополнительное свойство"
       },
       "Armor": {
-        "baseScore": "Base Score",
+        "baseScore": "Базовое Значение",
         "baseThresholds": {
-          "base": "Base Thresholds",
-          "major": "Major Threshold",
-          "severe": "Severe Threshold"
+          "base": "Базовые пороги урона",
+          "major": "Порог Серьёзного урона",
+          "severe": "Порог Тяжёлого урона"
         }
       },
       "Beastform": {
