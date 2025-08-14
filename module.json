@@ -17,7 +17,13 @@
       {
         "id": "daggerheart",
         "type": "system",
-        "compatibility": {}
+        "compatibility": {
+          "compatibility": {
+            "minimum": "1.0.0",
+            "verified": "1.0.0",
+            "maximum": "1.0.0"
+          }
+        }
       }
     ]
   },
@@ -28,5 +34,6 @@
       "path": "lang/ru.json",
       "flags": {}
     }
-  ]
+  ],
+  "styles": ["styles/daggerheart-ru.css"]
 }
