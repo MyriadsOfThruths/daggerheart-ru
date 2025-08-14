@@ -1,0 +1,8 @@
+﻿dist/
+.github/
+.git/
+.idea/
+.vscode/
+*.zip
+Thumbs.db
+.DS_Store
