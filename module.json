@@ -20,7 +20,7 @@
         "compatibility": {
           "compatibility": {
             "minimum": "1.0.2",
-            "verified": "1.0.2",
+            "verified": "1.0.4",
             "maximum": "1.0.999"
           }
         }
