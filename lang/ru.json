@@ -322,7 +322,8 @@
         "combatStarted": "Активно",
         "giveSpotlight": "Передать активацию",
         "requestingSpotlight": "Запрашивает активацию",
-        "requestSpotlight": "Запросить активацию"
+        "requestSpotlight": "Запросить активацию",
+        "openCountdowns": "Обратный отсчет"
       },
       "ContextMenu": {
         "disableEffect": "Отключить эффект",
