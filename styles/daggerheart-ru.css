@@ -9,3 +9,12 @@
 .application.sheet.dh-style .character-sidebar-sheet .info-section .status-section .status-number .status-label h4 {
     font-size: 10px;
 }
+
+.application.sheet.daggerheart.actor.dh-style.character .character-header-sheet .character-traits .trait .trait-name {
+    font-size: 13px;
+}
+
+.application.setting.dh-style .form-group label {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}

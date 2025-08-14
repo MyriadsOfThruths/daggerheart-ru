@@ -183,7 +183,7 @@
           }
         },
         "hordeDamage": "Урон орды",
-        "horderHp": "Орда/ОЗ"
+        "horderHp": "Орда/Раны"
       },
       "Character": {
         "advantageSources": {
@@ -208,7 +208,7 @@
         "faith": "Вера",
         "levelUp": "Доступно повышение уровня",
         "maxEvasionBonus": "Макс. бонус к уклонению",
-        "maxHPBonus": "Макс. бонус к ОЗ",
+        "maxHPBonus": "Макс. бонус к Ранам",
         "pronouns": "Местоимения",
         "story": {
           "backgroundTitle": "Предыстория",
@@ -964,8 +964,8 @@
       },
       "HealingType": {
         "hitPoints": {
-          "name": "Очки здоровья",
-          "abbreviation": "ОЗ"
+          "name": "Раны",
+          "abbreviation": "Раны"
         },
         "stress": {
           "name": "Стресс",
@@ -1059,7 +1059,7 @@
       "Traits": {
         "agility": {
           "name": "Проворность",
-          "short": "AGI",
+          "short": "ПРВ",
           "verb": {
             "sprint": "Рывок",
             "leap": "Прыжок",
@@ -1068,7 +1068,7 @@
         },
         "strength": {
           "name": "Сила",
-          "short": "STR",
+          "short": "СИЛ",
           "verb": {
             "lift": "Поднять",
             "smash": "Сокрушить",
@@ -1077,7 +1077,7 @@
         },
         "finesse": {
           "name": "Искусность",
-          "short": "FIN",
+          "short": "ИСК",
           "verb": {
             "control": "Контролировать",
             "hide": "Скрываться",
@@ -1086,7 +1086,7 @@
         },
         "instinct": {
           "name": "Инстинкт",
-          "short": "INS",
+          "short": "ИНС",
           "verb": {
             "perceive": "Воспринимать",
             "sense": "Чувствовать",
@@ -1095,7 +1095,7 @@
         },
         "presence": {
           "name": "Влияние",
-          "short": "PRE",
+          "short": "ВЛН",
           "verb": {
             "charm": "Очаровать",
             "perform": "Выступать",
@@ -1104,7 +1104,7 @@
         },
         "knowledge": {
           "name": "Интеллект",
-          "short": "KNO",
+          "short": "ИНТ",
           "verb": {
             "recall": "Вспомнить",
             "analyze": "Анализировать",
@@ -2056,7 +2056,7 @@
       "used": "Использовано",
       "uses": "Использования",
       "value": "Значение",
-      "withThing": "С {thing}"
+      "withThing": " {thing}"
     },
     "ITEMS": {
       "FIELDS": {
@@ -2310,7 +2310,7 @@
           },
           "maxLoadout": {
             "label": "Максимум карт в Снаряжении",
-            "hint": "Оставьте пустым или 0 для отключения ограничения"
+            "hint": "Оставьте значение пустым или 0 для отключения ограничения"
           },
           "maxDomains": {
             "label": "Максимум доменов класса",
@@ -2328,10 +2328,10 @@
         },
         "domains": {
           "domainsTitle": "Базовые домены",
-          "homebrewDomains": "Пользовательские домены (домашние правила)",
+          "homebrewDomains": "Пользовательские домены",
           "newDomain": "Новый домен",
           "newDomainInputTitle": "Создать домен (домашние правила)",
-          "newDomainInputLabel": "Название нового домена",
+          "newDomainInputLabel": "Название",
           "newDomainInputHint": "Это нельзя будет изменить позже",
           "editDomain": "Активный домен",
           "deleteDomain": "Удалить домен",
@@ -2526,7 +2526,7 @@
         "openActorWorld": "Open Actor World",
         "sendToChat": "Отправить в чат",
         "maxEvasionClassBound": "Базовое уклонение определяется вашим классом. Это прибавка сверх него.",
-        "maxHPClassBound": "Максимальные ОЗ определяются вашим классом. Это прибавка сверх них.",
+        "maxHPClassBound": "Максимальное кол-во Ран определяются вашим классом. Это прибавка сверх них.",
         "moreOptions": "Больше опций",
         "equip": "Экипировать",
         "unequip": "Снять",
