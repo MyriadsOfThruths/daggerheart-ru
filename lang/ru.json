@@ -1846,236 +1846,236 @@
       "Rules": {
         "damageReduction": {
           "increasePerArmorMark": {
-            "label": "Damage Reduction per Armor Slot",
-            "hint": "A used armor slot normally reduces damage by one step. This value increases the number of steps damage is reduced by."
+            "label": "Снижение урона за Ячейку Брони",
+            "hint": "Отмеченная Ячейка Брони обычно снижает урон на один порог. Это значение увеличивает число порогов, на которое снижается урон."
           },
-          "maxArmorMarkedBonus": "Max Armor Used",
+          "maxArmorMarkedBonus": "Максимум отмечённых Ячеек Брони",
           "maxArmorMarkedStress": {
-            "label": "Max Armor Used With Stress",
-            "hint": "If this value is set you can use up to that much stress to spend additional Armor Marks beyond your normal maximum."
+            "label": "Максимум Ячеек Брони со Стрессом",
+            "hint": "Если задано значение, можно потратить до указанного количества Стресса, чтобы отметить дополнительные Ячейки Брони сверх обычного максимума."
           },
           "stress": {
             "any": {
-              "label": "Stress Damage Reduction: Any",
-              "hint": "The cost in stress you can pay to reduce incoming damage down one threshold"
+              "label": "Снижение урона за Стресс: любой",
+              "hint": "Стоимость в Стрессе, которую можно заплатить, чтобы снизить входящий урон на один порог."
             },
             "severe": {
-              "label": "Stress Damage Reduction: Severe",
-              "hint": "The cost in stress you can pay to reduce severe damage down to major."
+              "label": "Снижение урона за Стресс: Тяжёлый",
+              "hint": "Стоимость в Стрессе, чтобы снизить Тяжёлый урон до Серьёзного."
             },
             "major": {
-              "label": "Stress Damage Reduction: Major",
-              "hint": "The cost in stress you can pay to reduce major damage down to minor."
+              "label": "Снижение урона за Стресс: Серьёзный",
+              "hint": "Стоимость в Стрессе, чтобы снизить Серьёзный урон до Лёгкого."
             },
             "minor": {
-              "label": "Stress Damage Reduction: Minor",
-              "hint": "The cost in stress you can pay to reduce minor damage to none."
+              "label": "Снижение урона за Стресс: Лёгкий",
+              "hint": "Стоимость в Стрессе, чтобы снизить Лёгкий урон до «Нет»."
             }
           }
         },
         "attack": {
           "damage": {
             "dice": {
-              "label": "Base Attack: Damage Dice Index",
-              "hint": "Index for the damage dice used on the basic attack. 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20"
+              "label": "Базовая атака: идентификатор кости урона",
+              "hint": "Идентификатор кости урона для базовой атаки: 0=d4, 1=d6, 2=d8, 3=d10, 4=d12, 5=d20."
             },
             "bonus": {
-              "label": "Base Attack: Damage Bonus"
+              "label": "Базовая атака: бонус к урону"
             }
           },
           "roll": {
             "trait": {
-              "label": "Base Attack: Trait"
+              "label": "Базовая атака: Атрибут"
             }
           }
         }
       },
       "Tabs": {
-        "details": "Details",
-        "attack": "Attack",
-        "experiences": "Experiences",
-        "features": "Features",
-        "actions": "Actions",
-        "potentialAdversaries": "Potential Adversaries",
-        "adversaries": "Adversaries",
-        "advancement": "Level Advancement",
-        "selections": "Advancement Choices",
-        "summary": "Summary",
-        "effects": "Effects",
-        "settings": "Settings",
-        "description": "Description",
-        "main": "Data",
-        "information": "Information",
-        "notes": "Notes",
-        "inventory": "Inventory",
-        "loadout": "Loadout",
-        "vault": "Vault",
-        "heritage": "Heritage",
-        "story": "Story",
-        "biography": "Biography",
-        "general": "General",
-        "foundation": "Foundation",
-        "specialization": "Specialization",
-        "mastery": "Mastery",
-        "optional": "Optional",
-        "recovery": "Recovery",
-        "setup": "Setup",
-        "equipment": "Equipment",
+        "details": "Подробности",
+        "attack": "Атака",
+        "experiences": "Опыт",
+        "features": "Свойства",
+        "actions": "Действия",
+        "potentialAdversaries": "Потенциальные противники",
+        "adversaries": "Противники",
+        "advancement": "Повышение уровня",
+        "selections": "Варианты развития",
+        "summary": "Сводка",
+        "effects": "Эффекты",
+        "settings": "Настройки",
+        "description": "Описание",
+        "main": "Данные",
+        "information": "Информация",
+        "notes": "Заметки",
+        "inventory": "Инвентарь",
+        "loadout": "Снаряжение",
+        "vault": "Хранилище",
+        "heritage": "Наследие",
+        "story": "История",
+        "biography": "Биография",
+        "general": "Общее",
+        "foundation": "Основа",
+        "specialization": "Специализация",
+        "mastery": "Мастерство",
+        "optional": "Необязательно",
+        "recovery": "Восстановление",
+        "setup": "Подготовка",
+        "equipment": "Экипировка",
         "attachments": "Attachments",
         "advanced": "Advanced",
-        "tier1": "Tier 1",
-        "tier2": "Tier 2",
-        "tier3": "Tier 3",
-        "tier4": "tier 4",
-        "domains": "Domains",
-        "downtime": "Downtime"
+        "tier1": "Тир 1",
+        "tier2": "Тир 2",
+        "tier3": "Тир 3",
+        "tier4": "Тир 4",
+        "domains": "Домены",
+        "downtime": "Привал"
       },
       "Tiers": {
-        "singular": "Tier",
-        "1": "Tier 1",
-        "2": "Tier 2",
-        "3": "Tier 3",
-        "4": "Tier 4"
+        "singular": "Тир",
+        "1": "Тир 1",
+        "2": "Тир 2",
+        "3": "Тир 3",
+        "4": "Тир 4"
       },
       "Trait": {
         "single": "Атрибут",
         "plural": "Атрибуты"
       },
-      "actorName": "Actor Name",
-      "amount": "Amount",
-      "any": "Any",
-      "armor": "Armor",
-      "armorScore": "Armor Score",
-      "activeEffects": "Active Effects",
-      "armorSlots": "Armor Slots",
-      "attack": "Attack",
+      "actorName": "Имя актёра",
+      "amount": "Количество",
+      "any": "Любой",
+      "armor": "Броня",
+      "armorScore": "Значение Брони",
+      "activeEffects": "Активные эффекты",
+      "armorSlots": "Ячейки Брони",
+      "attack": "Атака",
       "basics": "Basics",
-      "bonus": "Bonus",
-      "burden": "Burden",
-      "continue": "Continue",
-      "criticalSuccess": "Critical Success",
-      "criticalShort": "Critical",
-      "d20Roll": "D20 Roll",
-      "damage": "Damage",
-      "damageRoll": "Damage Roll",
-      "damageType": "Damage Type",
-      "description": "Description",
-      "difficulty": "Difficulty",
-      "downtime": "Downtime",
-      "dropActorsHere": "Drop Actors here",
-      "duality": "Duality",
-      "dualityRoll": "Duality Roll",
-      "enabled": "Enabled",
-      "evasion": "Evasion",
-      "equipment": "Equipment",
+      "bonus": "Бонус",
+      "burden": "Нагрузка",
+      "continue": "Продолжить",
+      "criticalSuccess": "Критический успех",
+      "criticalShort": "Крит",
+      "d20Roll": "Бросок d20",
+      "damage": "Урон",
+      "damageRoll": "Бросок урона",
+      "damageType": "Тип урона",
+      "description": "Описание",
+      "difficulty": "Сложность",
+      "downtime": "Привал",
+      "dropActorsHere": "Перетащите актёров сюда",
+      "duality": "Дуальность",
+      "dualityRoll": "Бросок Дуальности",
+      "enabled": "Включено",
+      "evasion": "Уклонение",
+      "equipment": "Экипировка",
       "experience": {
-        "single": "Experience",
-        "plural": "Experiences"
+        "single": "Опыт",
+        "plural": "Опыт"
       },
-      "failure": "Failure",
-      "fear": "Fear",
-      "features": "Features",
-      "formula": "Formula",
-      "healing": "Healing",
-      "healingRoll": "Healing Roll",
+      "failure": "Провал",
+      "fear": "Страх",
+      "features": "Свойства",
+      "formula": "Формула",
+      "healing": "Лечение",
+      "healingRoll": "Бросок лечения",
       "hit": {
-        "single": "Hit",
-        "plural": "Hits"
+        "single": "Попадание",
+        "plural": "Попадания"
       },
       "HitPoints": {
-        "single": "Hit Point",
-        "plural": "Hit Points",
+        "single": "Рана",
+        "plural": "Раны",
         "short": "HP"
       },
-      "hope": "Hope",
-      "hordeHp": "Horde HP",
-      "identify": "Identity",
-      "imagePath": "Image Path",
-      "inactiveEffects": "Inactive Effects",
-      "inventory": "Inventory",
-      "itemResource": "Item Resource",
+      "hope": "Надежда",
+      "hordeHp": "Раны Орды",
+      "identify": "Идентичность",
+      "imagePath": "Путь к изображению",
+      "inactiveEffects": "Неактивные эффекты",
+      "inventory": "Инвентарь",
+      "itemResource": "Ресурс предмета",
       "label": "Label",
-      "level": "Level",
-      "levelUp": "Level Up",
-      "loadout": "Loadout",
-      "max": "Max",
+      "level": "Уровень",
+      "levelUp": "Повысить уровень",
+      "loadout": "Снаряжение",
+      "max": "Максимум",
       "miss": {
-        "single": "Miss",
-        "plural": "Miss"
+        "single": "Промах",
+        "plural": "Промахи"
       },
-      "maxWithThing": "Max {thing}",
-      "multiclass": "Multiclass",
-      "newCategory": "New Category",
-      "none": "None",
-      "noTarget": "No current target",
-      "partner": "Partner",
-      "proficiency": "Proficiency",
-      "quantity": "Quantity",
-      "range": "Range",
-      "reactionRoll": "Reaction Roll",
-      "recovery": "Recovery",
-      "reroll": "Reroll",
-      "rerollThing": "Reroll {thing}",
-      "resource": "Resource",
-      "roll": "Roll",
-      "rollAll": "Roll All",
-      "rollDamage": "Roll Damage",
-      "rollWith": "{roll} Roll",
-      "save": "Save",
-      "scalable": "Scalable",
-      "situationalBonus": "Situational Bonus",
-      "stress": "Stress",
-      "success": "Success",
-      "take": "Take",
+      "maxWithThing": "Максимум {thing}",
+      "multiclass": "Мультикласс",
+      "newCategory": "Новая категория",
+      "none": "Нет",
+      "noTarget": "Нет текущей цели",
+      "partner": "Партнёр",
+      "proficiency": "Мастерство",
+      "quantity": "Количество",
+      "range": "Дистанция",
+      "reactionRoll": "Бросок реакции",
+      "recovery": "Восстановление",
+      "reroll": "Переброс",
+      "rerollThing": "Перебросить {thing}",
+      "resource": "Ресурс",
+      "roll": "Бросок",
+      "rollAll": "Бросить все",
+      "rollDamage": "Бросок урона",
+      "rollWith": "Бросок {roll}",
+      "save": "Спасбросок",
+      "scalable": "Масштабируется",
+      "situationalBonus": "Ситуативный бонус",
+      "stress": "Стресс",
+      "success": "Успех",
+      "take": "Принять",
       "Target": {
-        "single": "Target",
-        "plural": "Targets"
+        "single": "Цель",
+        "plural": "Цели"
       },
-      "title": "Title",
-      "total": "Total",
-      "true": "True",
-      "type": "Type",
-      "unarmed": "Unarmed",
-      "unarmedStrike": "Unarmed Strike",
-      "unarmored": "Unarmored",
-      "use": "Use",
-      "used": "Used",
-      "uses": "Uses",
-      "value": "Value",
-      "withThing": "With {thing}"
+      "title": "Название",
+      "total": "Итого",
+      "true": "Да",
+      "type": "Тип",
+      "unarmed": "Безоружный",
+      "unarmedStrike": "Безоружный удар",
+      "unarmored": "Без брони",
+      "use": "Использовать",
+      "used": "Использовано",
+      "uses": "Использования",
+      "value": "Значение",
+      "withThing": "С {thing}"
     },
     "ITEMS": {
       "FIELDS": {
         "resource": {
           "amount": {
-            "label": "Amount"
+            "label": "Количество"
           },
           "dieFaces": {
-            "label": "Die Faces"
+            "label": "Грани кости"
           },
           "icon": {
-            "label": "Icon"
+            "label": "Иконка"
           },
           "max": {
-            "label": "Max"
+            "label": "Максимум"
           },
           "progression": {
-            "label": "Progression"
+            "label": "Прогрессия"
           },
           "recovery": {
-            "label": "Recovery"
+            "label": "Восстановление"
           },
           "type": {
-            "label": "Type"
+            "label": "Тип"
           },
           "value": {
-            "label": "Value"
+            "label": "Значение"
           }
         }
       },
       "Ancestry": {
-        "primaryFeature": "Primary Feature",
-        "secondaryFeature": "Secondary Feature"
+        "primaryFeature": "Основное свойство",
+        "secondaryFeature": "Дополнительное свойство"
       },
       "Armor": {
         "baseScore": "Base Score",
@@ -2088,275 +2088,275 @@
       "Beastform": {
         "FIELDS": {
           "beastformType": {
-            "label": "Beastform Type"
+            "label": "Тип формы зверя"
           },
           "tier": {
-            "label": "Tier"
+            "label": "Тир"
           },
           "mainTrait": {
             "label": "Основной атрибут"
           },
           "examples": {
-            "label": "Examples"
+            "label": "Примеры"
           },
           "advantageOn": {
-            "label": "Gain Advantage On"
+            "label": "Преимущество на"
           },
           "tokenImg": {
-            "label": "Token Image"
+            "label": "Изображение жетона"
           },
           "tokenRingImg": {
-            "label": "Subject Texture"
+            "label": "Текстура кольца жетона"
           },
           "tokenSize": {
-            "placeholder": "Using character dimensions",
+            "placeholder": "Используются размеры персонажа",
             "height": {
-              "label": "Height"
+              "label": "Высота"
             },
             "width": {
-              "label": "Width"
+              "label": "Ширина"
             }
           },
           "evolved": {
             "maximumTier": {
-              "label": "Maximum Tier"
+              "label": "Максимальный Тир"
             },
             "mainTraitBonus": {
-              "label": "Main Trait Bonus"
+              "label": "Бонус к основному атрибуту"
             }
           },
           "hybrid": {
             "beastformOptions": {
-              "label": "Nr Beastforms"
+              "label": "Количество форм зверя"
             },
             "advantages": {
-              "label": "Nr Advantages"
+              "label": "Количество Преимуществ"
             },
             "features": {
-              "label": "Nr Features"
+              "label": "Количество свойств"
             }
           }
         },
-        "attackName": "Beast Attack",
-        "beastformEffect": "Beastform Transformation",
-        "dialogTitle": "Beastform Selection",
-        "tokenTitle": "Beastform Token",
-        "transform": "Transform",
-        "evolve": "Evolve",
-        "evolvedFeatureTitle": "Evolved",
-        "evolvedDrag": "Drag a form here to evolve it.",
-        "hybridize": "Hybridize",
-        "hybridizeFeatureTitle": "Hybrid Features",
-        "hybridizeDrag": "Drag a form here to hybridize it."
+        "attackName": "Атака зверя",
+        "beastformEffect": "Преображение в форму зверя",
+        "dialogTitle": "Выбор формы зверя",
+        "tokenTitle": "Жетон формы зверя",
+        "transform": "Превратиться",
+        "evolve": "Эволюционировать",
+        "evolvedFeatureTitle": "Эволюция",
+        "evolvedDrag": "Перетащите форму сюда, чтобы эволюционировать её.",
+        "hybridize": "Создать гибрид",
+        "hybridizeFeatureTitle": "Свойства гибрида",
+        "hybridizeDrag": "Перетащите форму сюда, чтобы создать гибрид."
       },
       "Class": {
-        "hopeFeatures": "Hope Features",
-        "classFeatures": "Class Features",
+        "hopeFeatures": "Свойства Надежды",
+        "classFeatures": "Классовые свойства",
         "guide": {
-          "suggestedEquipment": "Suggested Equipments",
-          "suggestedPrimaryWeaponTitle": "Primary Weapon",
-          "suggestedSecondaryWeaponTitle": "Secondary Weapon",
-          "suggestedArmorTitle": "Armor",
+          "suggestedEquipment": "Рекомендуемая экипировка",
+          "suggestedPrimaryWeaponTitle": "Основное оружие",
+          "suggestedSecondaryWeaponTitle": "Дополнительное оружие",
+          "suggestedArmorTitle": "Броня",
           "inventory": {
-            "thenChoose": "Then Choose Between",
-            "andEither": "And Either"
+            "thenChoose": "Затем выберите между",
+            "andEither": "И один из"
           }
         }
       },
       "Consumable": {
-        "consumeOnUse": "Consume On Use"
+        "consumeOnUse": "Расходуется при использовании"
       },
       "DomainCard": {
-        "type": "Type",
-        "recallCost": "Recall Cost",
-        "foundationTitle": "Foundation",
-        "specializationTitle": "Specialization",
-        "masteryTitle": "Mastery"
+        "type": "Тип",
+        "recallCost": "Стоимость возврата",
+        "foundationTitle": "Основа",
+        "specializationTitle": "Специализация",
+        "masteryTitle": "Мастерство"
       },
       "Subclass": {
-        "spellcastingTrait": "Spellcasting Trait"
+        "spellcastingTrait": "Заклинательный атрибут"
       },
       "Weapon": {
-        "weaponType": "Weapon Type",
-        "primaryWeapon": "Primary Weapon",
-        "secondaryWeapon": "Secondary Weapon"
+        "weaponType": "Тип оружия",
+        "primaryWeapon": "Основное оружие",
+        "secondaryWeapon": "Дополнительное оружие"
       }
     },
     "SETTINGS": {
       "Appearance": {
         "FIELDS": {
           "displayFear": {
-            "label": "Fear Display"
+            "label": "Отображение Страха"
           },
           "dualityColorScheme": {
-            "label": "Chat Style"
+            "label": "Стиль чата"
           },
           "showGenericStatusEffects": {
-            "label": "Show Foundry Status Effects"
+            "label": "Показывать эффекты состояния Foundry"
           }
         },
         "fearDisplay": {
-          "token": "Tokens",
-          "bar": "Bar",
-          "hide": "Hide"
+          "token": "Жетоны",
+          "bar": "Панель Страха",
+          "hide": "Скрыть"
         }
       },
       "Automation": {
         "fear": {
-          "name": "Fear",
-          "hint": "Automatically increase the GM's fear pool on a fear duality roll result."
+          "name": "Страх",
+          "hint": "Автоматически увеличивать пул Страха Мастера игры при результате броска Дуальности «Страх»."
         },
         "FIELDS": {
           "damageReductionRulesDefault": {
-            "label": "Damage Reduction Rules Default",
-            "hint": "Wether using armor and reductions has rules on by default"
+            "label": "Правила снижения урона по умолчанию",
+            "hint": "Определяет, включены ли по умолчанию правила использования Брони и снижения урона."
           },
           "hopeFear": {
-            "label": "Hope & Fear",
+            "label": "Надежда и Страх",
             "gm": {
-              "label": "GM"
+              "label": "Мастер"
             },
             "players": {
-              "label": "Players"
+              "label": "Игроки"
             }
           },
           "levelupAuto": {
-            "label": "Levelup Automation",
-            "hint": "When you've made your choices and finish levelup, the numerical changes are automatically applied to your character."
+            "label": "Автоматизация повышения уровня",
+            "hint": "После того как вы сделаете выбор и завершите повышение уровня, числовые изменения автоматически применяются к вашему персонажу."
           },
           "actionPoints": {
-            "label": "Action Points",
-            "hint": "Automatically give and take Action Points as combatants take their turns."
+            "label": "Очки Действий",
+            "hint": "Автоматически начислять и списывать Очки Действий по мере хода участников боя."
           },
           "hordeDamage": {
-            "label": "Automatic Horde Damage",
-            "hint": "Automatically active horde effect to lower damage when reaching half or lower HP."
+            "label": "Автоматическое снижение урона Орды",
+            "hint": "Автоматически применять эффект Орды, который снижает её урон при достижение Ран до половины или выше."
           },
           "effects": {
             "rangeDependent": {
-              "label": "Effect Range Dependent",
-              "hint": "Effects with defined range dependency will automatically turn on/off depending on range"
+              "label": "Эффект зависит от дистанции",
+              "hint": "Эффекты с заданной зависимостью от дистанции будут автоматически включаться/выключаться по мере изменения дистанции."
             }
           },
           "resourceScrollTexts": {
-            "label": "Show Resource Change Scrolltexts",
-            "hint": "When a character is damaged, uses armor etc, a scrolling text will briefly appear by the token to signify this."
+            "label": "Показывать прокручиваемые тексты изменений ресурсов",
+            "hint": "Когда персонаж получает урон, использует Броню и т.п., рядом с его токеном кратко появляется прокручиваемый текст, обозначающий событие."
           },
           "playerCanEditSheet": {
-            "label": "Players Can Manually Edit Character Settings",
-            "hint": "Players are allowed to access the manual Character Settings and change their statistics beyond the rules."
+            "label": "Игроки могут вручную редактировать настройки персонажа",
+            "hint": "Игрокам разрешён доступ к ручным настройкам персонажа и возможность изменять его параметры сверх правил."
           }
         }
       },
       "Homebrew": {
-        "newDowntimeMove": "Downtime Move",
-        "downtimeMoves": "Downtime Moves",
-        "nrChoices": "# Moves Per Rest",
-        "resetMovesTitle": "Reset {type} Downtime Moves",
-        "resetMovesText": "Are you sure you want to reset?",
+        "newDowntimeMove": "Ход Привала",
+        "downtimeMoves": "Ходы Привала",
+        "nrChoices": "# ходов Привала за отдых",
+        "resetMovesTitle": "Сброс ходов Привала: {type}",
+        "resetMovesText": "Вы уверены, что хотите сбросить?",
         "FIELDS": {
           "maxFear": {
-            "label": "Max Fear"
+            "label": "Максимум Страха"
           },
           "traitArray": {
-            "label": "Initial Trait Modifiers"
+            "label": "Начальные модификаторы Атрибутов"
           },
           "maxLoadout": {
-            "label": "Max Cards in Loadout",
-            "hint": "Set to blank or 0 for unlimited maximum"
+            "label": "Максимум карт в Снаряжении",
+            "hint": "Оставьте пустым или 0 для отключения ограничения"
           },
           "maxDomains": {
-            "label": "Max Class Domains",
-            "hint": "Max domains you can set on a class"
+            "label": "Максимум доменов класса",
+            "hint": "Максимальное число доменов, которое можно назначить классу"
           }
         },
         "currency": {
-          "enabled": "Enable Overrides",
-          "title": "Currency Overrides",
-          "currencyName": "Currency Name",
-          "coinName": "Coin Name",
-          "handfulName": "Handful Name",
-          "bagName": "Bag Name",
-          "chestName": "Chest Name"
+          "enabled": "Включить переопределения",
+          "title": "Переопределения валюты",
+          "currencyName": "Название валюты",
+          "coinName": "Название монеты",
+          "handfulName": "Название горсти",
+          "bagName": "Название мешка",
+          "chestName": "Название сундука"
         },
         "domains": {
-          "domainsTitle": "Base Domains",
-          "homebrewDomains": "Homebrew Domains",
-          "newDomain": "New Domain",
-          "newDomainInputTitle": "Create Homebrew Domain",
-          "newDomainInputLabel": "New Domain Name",
-          "newDomainInputHint": "This cannot be altered later",
-          "editDomain": "Active Domain",
-          "deleteDomain": "Delete Domain",
-          "deleteDomainText": "Are you sure you want to delete the {name} domain? It will be immediately removed from all Actors in this world where it's currently used. Compendiums are not cleared.",
-          "duplicateDomain": "There is already a domain with this identification."
+          "domainsTitle": "Базовые домены",
+          "homebrewDomains": "Пользовательские домены (домашние правила)",
+          "newDomain": "Новый домен",
+          "newDomainInputTitle": "Создать домен (домашние правила)",
+          "newDomainInputLabel": "Название нового домена",
+          "newDomainInputHint": "Это нельзя будет изменить позже",
+          "editDomain": "Активный домен",
+          "deleteDomain": "Удалить домен",
+          "deleteDomainText": "Вы уверены, что хотите удалить домен {name}? Он будет немедленно удалён у всех персонажей в этом мире, где сейчас используется. Компендиумы не очищаются.",
+          "duplicateDomain": "Домен с таким идентификатором уже существует."
         }
       },
       "Menu": {
-        "title": "Daggerheart Game Settings",
+        "title": "Настройки игры Daggerheart",
         "automation": {
-          "name": "Automation Settings",
-          "label": "Configure Automation",
-          "hint": "Various settings automating resource management and more"
+          "name": "Настройки автоматизации",
+          "label": "Настройка автоматизации",
+          "hint": "Различные параметры, автоматизирующие управление ресурсами и другие процессы"
         },
         "homebrew": {
-          "name": "Homebrew Settings",
-          "label": "Configure Homebrew",
-          "hint": "Various settings allowing extensions to types or altered game rules"
+          "name": "Настройки домашних правил",
+          "label": "Настройка домашних правил",
+          "hint": "Различные параметры для расширения типов сущностей и изменения правил игры"
         },
         "range": {
-          "name": "Range Settings",
-          "label": "Configure Range Handling",
-          "hint": "System ruler setup for displaying ranges in Daggerheart"
+          "name": "Настройки дистанций",
+          "label": "Настройка обработки дистанций",
+          "hint": "Настройка системной линейки для отображения дистанций в Daggerheart"
         },
         "appearance": {
-          "title": "Appearance Settings",
-          "label": "Appearance Settings",
-          "hint": "Modify the look of various parts of the system",
-          "name": "Appearance Settings",
-          "duality": "Duality Rolls",
+          "title": "Настройки внешнего вида",
+          "label": "Настройки внешнего вида",
+          "hint": "Изменение внешнего вида различных частей системы",
+          "name": "Настройки внешнего вида",
+          "duality": "Броски Дуальности",
           "diceSoNice": {
             "title": "Dice So Nice",
-            "hint": "Coloration of Duality dice if the Dice So Nice module is used.",
-            "foreground": "Foreground",
-            "background": "Background",
-            "outline": "Outline",
-            "edge": "Edge",
-            "texture": "Texture",
-            "colorset": "Theme",
-            "material": "Material",
-            "system": "Dice Preset"
+            "hint": "Цветовое оформление костей Дуальности при использовании модуля Dice So Nice.",
+            "foreground": "Основной цвет",
+            "background": "Фон",
+            "outline": "Обводка",
+            "edge": "Рёбра",
+            "texture": "Текстура",
+            "colorset": "Тема",
+            "material": "Материал",
+            "system": "Предустановка костей"
           }
         },
         "variantRules": {
-          "title": "Variant Rules",
-          "label": "Variant Rules",
-          "hint": "Apply variant rules from the Daggerheart system",
-          "name": "Variant Rules",
-          "actionTokens": "Action Tokens"
+          "title": "Вариативные правила",
+          "label": "Вариативные правила",
+          "hint": "Применять вариативные правила системы Daggerheart",
+          "name": "Вариативные правила",
+          "actionTokens": "Жетоны действий"
         }
       },
       "Resources": {
         "fear": {
-          "name": "Fear",
-          "hint": "The Fear pool of the GM."
+          "name": "Страх",
+          "hint": "Запас Страха Мастера."
         }
       },
       "VariantRules": {
         "FIELDS": {
           "actionTokens": {
             "enabled": {
-              "label": "Enabled"
+              "label": "Включено"
             },
             "tokens": {
-              "label": "Tokens"
+              "label": "Жетоны"
             }
           }
         }
       },
       "ResetSettings": {
-        "resetConfirmationTitle": "Reset Settings",
-        "resetConfirmationText": "Are you sure you want to reset the {settings}?"
+        "resetConfirmationTitle": "Сброс настроек",
+        "resetConfirmationText": "Вы уверены, что хотите сбросить {settings}?"
       }
     },
     "UI": {
