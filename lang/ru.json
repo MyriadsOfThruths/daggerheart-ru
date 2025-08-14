@@ -1988,7 +1988,7 @@
       "HitPoints": {
         "single": "Рана",
         "plural": "Раны",
-        "short": "HP"
+        "short": "Раны"
       },
       "hope": "Надежда",
       "hordeHp": "Раны Орды",
