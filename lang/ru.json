@@ -227,7 +227,11 @@
           "title": "Подкласс мультикласса",
           "text": "Добавить этот подкласс как подкласс мультикласса?"
         },
-        "cannotRemoveCoreExperience": "Включено автоматическое повышение уровня. Нельзя удалить опыт, полученный по правилам прогрессии."
+        "cannotRemoveCoreExperience": "Включено автоматическое повышение уровня. Нельзя удалить опыт, полученный по правилам прогрессии.",
+        "companionLevelup": {
+          "confirmTitle": "Повышение уровня спутника",
+          "confirmText": "Хотите повысить уровень спутника {name} на {levelChange} уровней сейчас? (Это можно сделать вручную позже.)"
+        }
       },
       "Companion": {
         "FIELDS": {
@@ -283,13 +287,14 @@
     },
     "APPLICATIONS": {
       "CharacterCreation": {
-        "setupTabs": {
+        "tabs": {
           "ancestry": "Происхождение",
           "community": "Сообщество",
           "class": "Класс",
           "experience": "Опыт",
           "traits": "Атрибуты",
-          "domainCards": "Карточки доменов"
+          "domainCards": "Карточки доменов",
+          "equipment": "Экипировка"
         },
         "ancestryNamePlaceholder": "Название происхождения",
         "buttonTitle": "Создание персонажа",
@@ -876,6 +881,10 @@
         "dead": {
           "name": "Мёртв",
           "description": "Персонаж мёртв."
+        },
+        "defeated": {
+          "name": "Повержен",
+          "description": "Этот противник повержен."
         },
         "hidden": {
           "name": "Скрытый",
@@ -1930,7 +1939,8 @@
         "tier3": "Тир 3",
         "tier4": "Тир 4",
         "domains": "Домены",
-        "downtime": "Привал"
+        "downtime": "Привал",
+        "rules": "Правила"
       },
       "Tiers": {
         "singular": "Тир",
@@ -1999,6 +2009,7 @@
       "itemResource": "Ресурс предмета",
       "label": "Label",
       "level": "Уровень",
+      "levelShort": "Ур.",
       "levelUp": "Повысить уровень",
       "loadout": "Снаряжение",
       "max": "Максимум",
@@ -2196,6 +2207,19 @@
           },
           "showGenericStatusEffects": {
             "label": "Показывать эффекты состояния Foundry"
+          },
+          "expandedTitle": "Автоматическое разворачивание описаний",
+          "extendCharacterDescriptions": {
+            "label": "Персонажи"
+          },
+          "extendAdversaryDescriptions": {
+            "label": "Противники"
+          },
+          "extendEnvironmentDescriptions": {
+            "label": "Окружение"
+          },
+          "extendItemDescriptions": {
+            "label": "Предметы"
           }
         },
         "fearDisplay": {
@@ -2213,6 +2237,23 @@
           "damageReductionRulesDefault": {
             "label": "Правила снижения урона по умолчанию",
             "hint": "Определяет, включены ли по умолчанию правила использования Брони и снижения урона."
+          },
+          "defeated": {
+            "enabled": {
+              "label": "Включено"
+            },
+            "overlay": {
+              "label": "Эффект наложения"
+            },
+            "characterDefault": {
+              "label": "Статус «Повержен» по умолчанию для персонажей"
+            },
+            "adversaryDefault": {
+              "label": "Статус «Повержен» по умолчанию для противников"
+            },
+            "companionDefault": {
+              "label": "Статус «Повержен» по умолчанию для спутников"
+            }
           },
           "hopeFear": {
             "label": "Надежда и Страх",
@@ -2249,6 +2290,9 @@
             "label": "Игроки могут вручную редактировать настройки персонажа",
             "hint": "Игрокам разрешён доступ к ручным настройкам персонажа и возможность изменять его параметры сверх правил."
           }
+        },
+        "defeated": {
+          "title": "Обработка статуса «Повержен»"
         }
       },
       "Homebrew": {
@@ -2499,7 +2543,8 @@
         "rulesOn": "Правила включены",
         "rulesOff": "Правила выключены",
         "remainingUses": "Использования восстанавливаются при событии {type}",
-        "rightClickExtand": "Кликните правой кнопкой, чтобы развернуть"
+        "rightClickExtand": "Кликните правой кнопкой, чтобы развернуть",
+        "companionPartnerLevelBlock": "Чтобы повысить уровень, у спутника должен быть назначен Партнёр."
       }
     }
   }
