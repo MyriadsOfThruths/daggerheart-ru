@@ -18,3 +18,31 @@
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.daggerheart.dh-style.dialog.character-creation .main-selections-container .traits-container .traits-inner-container .trait-container div,
+.application.daggerheart.dh-style.dialog .tab.details
+.traits-inner-container .trait-container div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 6ch;
+    display: block;
+}
+
+.daggerheart.dh-style.dialog.character-creation .main-selections-container .traits-container .traits-inner-container .trait-container div {
+    margin: 0 auto;
+}
+
+.daggerheart.dh-style.dialog.character-creation .main-selections-container .equipment-selection legend {
+    font-size: 20px;
+}
+
+.daggerheart.dh-style.dialog.character-creation .tab-navigation nav.tabs {
+    line-height: normal;
+    gap: 0.6rem;
+}
+
+.daggerheart.dh-style.dialog.character-creation .tab-navigation nav a {
+    line-height: 1.15;
+    padding: .25rem;
+}
