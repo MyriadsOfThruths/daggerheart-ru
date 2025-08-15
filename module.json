@@ -2,9 +2,9 @@
   "id": "daggerheart-ru",
   "title": "Daggerheart — Русификация (UI)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
-  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.2.2/daggerheart-ru.zip",
+  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.2.3/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -27,6 +27,12 @@
           }
         }
       }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      }
     ]
   },
   "languages": [
@@ -41,6 +47,15 @@
     "styles/daggerheart-ru.css"
   ],
   "esmodules": [
-    "scripts/lang-patch.js"
-  ]
+    "scripts/babele-register.js",
+    "scripts/lang-patch.js",
+    "scripts/pack-labels-auto.js"
+  ],
+  "flags": {
+    "babele": {
+      "folders": {
+        "ru": "packs/ru"
+      }
+    }
+  }
 }
