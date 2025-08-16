@@ -1,3 +1,4 @@
+.application.sheet.daggerheart.actor.dh-style.adversary .adversary-sidebar-sheet .threshold-section h4,
 .application.sheet.dh-style .character-sidebar-sheet .info-section .threshold-section h4 {
     font-size: 11px;
 }
@@ -6,6 +7,7 @@
     padding: 2px 5px;
 }
 
+.application.sheet.dh-style .character-sidebar-sheet .info-section .status-section .status-bar.armor-slots .status-label h4,
 .application.sheet.dh-style .character-sidebar-sheet .info-section .status-section .status-number .status-label h4 {
     font-size: 10px;
 }
@@ -45,4 +47,22 @@
 .daggerheart.dh-style.dialog.character-creation .tab-navigation nav a {
     line-height: 1.15;
     padding: .25rem;
+}
+
+.application.daggerheart.dialog.dh-style.views.roll-selection .roll-dialog-container .dices-section .dice-option {
+    width: auto;
+    min-width: 140px;
+    max-width: 240px;
+}
+
+.application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label{
+    width: 100px;
+}
+
+.application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label .item-tags .tag, .application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label .item-labels .tag, .application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label .item-tags .label, .application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label .item-labels .label {
+    font-size: 11px;
+}
+
+.application.daggerheart.dh-style .inventory-item .inventory-item-header .item-label .item-labels .label {
+    display: block;
 }
