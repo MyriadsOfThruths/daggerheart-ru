@@ -2,7 +2,7 @@
   "id": "daggerheart-ru",
   "title": "Daggerheart — Русификация (UI)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
   "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.3.0/daggerheart-ru.zip",
   "compatibility": {
