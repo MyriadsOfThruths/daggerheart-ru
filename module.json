@@ -2,9 +2,9 @@
   "id": "daggerheart-ru",
   "title": "Daggerheart — Русификация (UI)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
-  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.3.0/daggerheart-ru.zip",
+  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.3.1/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -25,12 +25,6 @@
           "maximum": "1.0.5"
         }
       }
-    ],
-    "requires": [
-      {
-        "id": "babele",
-        "type": "module"
-      }
     ]
   },
   "languages": [
@@ -45,15 +39,38 @@
     "styles/daggerheart-ru.css"
   ],
   "esmodules": [
-    "scripts/babele-register.js",
-    "scripts/lang-patch.js",
-    "scripts/pack-labels-auto.js"
+    "scripts/lang-patch.js"
   ],
-  "flags": {
-    "babele": {
-      "folders": {
-        "ru": "packs/ru"
-      }
+  "flags": {},
+  "packs": [
+    {
+      "name": "communities",
+      "label": "Communities",
+      "system": "daggerheart",
+      "path": "packs/communities",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     }
-  }
+  ],
+  "packFolders": [
+    {
+      "name": "Daggerheart-ru SRD",
+      "sorting": "m",
+      "color": "#08718c",
+      "folders": [
+        {
+          "name": "Опции персонажа",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "communities"
+          ]
+        }
+      ],
+      "packs": [
+
+      ]
+    }
+  ]
 }
