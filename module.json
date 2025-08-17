@@ -45,7 +45,7 @@
   "packs": [
     {
       "name": "communities",
-      "label": "Communities",
+      "label": "Сообщества",
       "system": "daggerheart",
       "path": "packs/communities",
       "type": "Item",
