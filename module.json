@@ -47,7 +47,16 @@
       "name": "communities",
       "label": "Сообщества",
       "system": "daggerheart",
-      "path": "packs/communities",
+      "path": "packs/communities.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "ancestries",
+      "label": "Происхождения",
+      "system": "daggerheart",
+      "path": "packs/ancestries",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -56,7 +65,7 @@
       "name": "weapons",
       "label": "Оружие",
       "system": "daggerheart",
-      "path": "packs/items",
+      "path": "packs/items/weapons",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -73,7 +82,8 @@
           "sorting": "m",
           "color": "#000000",
           "packs": [
-            "communities"
+            "communities",
+            "ancestries"
           ]
         },
         {

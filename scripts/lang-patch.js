@@ -41,6 +41,7 @@ Hooks.once("ready", () => {
     const REMAP = new Map([
         ["daggerheart.communities", "daggerheart-ru.communities"],
         ["daggerheart.weapons", "daggerheart-ru.weapons"],
+        ["daggerheart.ancestries", "daggerheart-ru.ancestries"],
     ]);
 
     const origGet = game.packs.get.bind(game.packs);
