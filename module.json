@@ -51,6 +51,15 @@
       "type": "Item",
       "private": false,
       "flags": {}
+    },
+    {
+      "name": "weapons",
+      "label": "Оружие",
+      "system": "daggerheart",
+      "path": "packs/items",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -65,6 +74,14 @@
           "color": "#000000",
           "packs": [
             "communities"
+          ]
+        },
+        {
+          "name": "Предметы",
+          "sorting": "m",
+          "color": "#000000",
+          "packs": [
+            "weapons"
           ]
         }
       ],

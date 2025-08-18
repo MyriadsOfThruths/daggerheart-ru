@@ -33,13 +33,14 @@ Hooks.on("preUpdateActor", (actor, change, options, userId) => {
     }
 });
 
-Hooks.once("init", () => {
+Hooks.once("ready", () => {
     const isRu = (game.i18n?.lang ?? game.settings.get("core", "language")) === "ru";
     if (!isRu) return;
   //  if (!game.settings.get("daggerheart-ru", "remapEnabled")) return;
 
     const REMAP = new Map([
         ["daggerheart.communities", "daggerheart-ru.communities"],
+        ["daggerheart.weapons", "daggerheart-ru.weapons"],
     ]);
 
     const origGet = game.packs.get.bind(game.packs);
