@@ -20,9 +20,9 @@
         "id": "daggerheart",
         "type": "system",
         "compatibility": {
-          "minimum": "1.0.7",
-          "verified": "1.0.7",
-          "maximum": "1.0.7"
+          "minimum": "1.1.0",
+          "verified": "1.1.0",
+          "maximum": "1.1.0"
         }
       }
     ],
