@@ -231,8 +231,11 @@
         "companionLevelup": {
           "confirmTitle": "Повышение уровня спутника",
           "confirmText": "Хотите повысить уровень спутника {name} на {levelChange} уровней сейчас? (Это можно сделать вручную позже.)"
-        }
-      },
+        },
+        "InvalidOldCharacterImportTitle": "Импорт устаревшего персонажа",
+        "InvalidOldCharacterImportText": "Данные персонажей, экспортированные до версии системы 1.1, не смогут сгенерировать полноценного персонажа. Хотите продолжить?"
+      }
+    },
       "Companion": {
         "FIELDS": {
           "attack": {
