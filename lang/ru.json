@@ -2010,6 +2010,7 @@
       "inactiveEffects": "Неактивные эффекты",
       "inventory": "Инвентарь",
       "itemResource": "Ресурс предмета",
+      "items": "Предметы",
       "label": "Label",
       "level": "Уровень",
       "levelShort": "Ур.",
@@ -2021,6 +2022,7 @@
         "plural": "Промахи"
       },
       "maxWithThing": "Максимум {thing}",
+      "missingDragDropThing": "Drop {thing} here",
       "multiclass": "Мультикласс",
       "newCategory": "Новая категория",
       "none": "Нет",
@@ -2042,6 +2044,7 @@
       "scalable": "Масштабируется",
       "situationalBonus": "Ситуативный бонус",
       "stress": "Стресс",
+      "subclasses": "Подкласс",
       "success": "Успех",
       "take": "Принять",
       "Target": {
@@ -2059,6 +2062,7 @@
       "used": "Использовано",
       "uses": "Использования",
       "value": "Значение",
+      "weapons": "Оружие",
       "withThing": " {thing}"
     },
     "ITEMS": {
@@ -2520,7 +2524,8 @@
         "insufficientResources": "Недостаточно ресурсов.",
         "multiclassAlreadyPresent": "У вас уже есть класс и мультикласс.",
         "subclassesAlreadyPresent": "У вас уже есть класс и подкласс мультикласса.",
-        "noDiceSystem": "Выбранная вами кость {system} не имеет {faces} костей."
+        "noDiceSystem": "Выбранная вами кость {system} не имеет {faces} костей.",
+        "subclassAlreadyLinked": "{name} уже является подклассом в классе {class}. Если хотите выбрать другой подкласс для этого класса, сначала удалите текущий."
       },
       "Tooltip": {
         "disableEffect": "Отключить эффект",
