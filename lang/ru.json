@@ -1959,6 +1959,7 @@
       "amount": "Количество",
       "any": "Любой",
       "armor": "Броня",
+      "armors": "Броня",
       "armorScore": "Значение Брони",
       "activeEffects": "Активные эффекты",
       "armorSlots": "Ячейки Брони",
@@ -2021,7 +2022,7 @@
         "plural": "Промахи"
       },
       "maxWithThing": "Максимум {thing}",
-      "missingDragDropThing": "Drop {thing} here",
+      "missingDragDropThing": "Перенести {thing} сюда",
       "multiclass": "Мультикласс",
       "newCategory": "Новая категория",
       "none": "Нет",
