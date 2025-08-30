@@ -39,9 +39,13 @@ Hooks.once("ready", () => {
   //  if (!game.settings.get("daggerheart-ru", "remapEnabled")) return;
 
     const REMAP = new Map([
+        ["daggerheart.ancestries", "daggerheart-ru.ancestries"],
+        ["daggerheart.domains", "daggerheart-ru.domains"],
         ["daggerheart.communities", "daggerheart-ru.communities"],
         ["daggerheart.weapons", "daggerheart-ru.weapons"],
-        ["daggerheart.ancestries", "daggerheart-ru.ancestries"],
+        ["daggerheart.armors", "daggerheart-ru.armors"],
+        ["daggerheart.consumables", "daggerheart-ru.consumables"],
+        ["daggerheart.loot", "daggerheart-ru.loot"]
     ]);
 
     const origGet = game.packs.get.bind(game.packs);
