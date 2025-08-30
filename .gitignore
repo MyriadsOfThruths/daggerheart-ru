@@ -7,11 +7,9 @@
 Thumbs.db
 .DS_Store
 
-*/**/*.ldb
-*/**/*.log
-*/**/CURRENT
-*/**/LOCK
-*/**/LOG
-*/**/LOG.old
-*/**/MANIFEST-*
-*/*/lost/**
+packs/**/**/*.ldb
+packs/**/**/*.log
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+packs**/lost/**
