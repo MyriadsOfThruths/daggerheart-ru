@@ -6,8 +6,12 @@
 *.zip
 Thumbs.db
 .DS_Store
-packs/*/lost/**
-packs/*/LOCK
-packs/*/LOG
-packs/*/LOG.old
-packs/*/*.log
+
+*/**/*.ldb
+*/**/*.log
+*/**/CURRENT
+*/**/LOCK
+*/**/LOG
+*/**/LOG.old
+*/**/MANIFEST-*
+*/*/lost/**
