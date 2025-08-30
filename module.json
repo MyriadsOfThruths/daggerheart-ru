@@ -2,9 +2,9 @@
   "id": "daggerheart-ru",
   "title": "Daggerheart — Русификация (UI)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.4.4",
+  "version": "0.5.0",
   "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
-  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.4.4/daggerheart-ru.zip",
+  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.5.0/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -12,6 +12,9 @@
   "authors": [
     {
       "name": "Miranzel"
+    },
+    {
+      "name": "Lans"
     }
   ],
   "relationships": {
@@ -39,12 +42,28 @@
     "styles/daggerheart-ru.css"
   ],
   "esmodules": [
-    "scripts/babele-register.js",
-    "scripts/lang-patch.js",
-    "scripts/pack-labels-auto.js"
+    "scripts/lang-patch.js"
   ],
   "flags": {},
   "packs": [
+    {
+      "name": "domains",
+      "label": "Домены",
+      "system": "daggerheart",
+      "path": "packs/domains.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "ancestries",
+      "label": "Происхождения",
+      "system": "daggerheart",
+      "path": "packs/ancestries.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
     {
       "name": "communities",
       "label": "Сообщества",
@@ -55,19 +74,37 @@
       "flags": {}
     },
     {
-      "name": "ancestries",
-      "label": "Происхождения",
+      "name": "weapons",
+      "label": "Оружие",
       "system": "daggerheart",
-      "path": "packs/ancestries",
+      "path": "packs/items/weapons.db",
       "type": "Item",
       "private": false,
       "flags": {}
     },
     {
-      "name": "weapons",
-      "label": "Оружие",
+      "name": "armors",
+      "label": "Броня",
       "system": "daggerheart",
-      "path": "packs/items/weapons",
+      "path": "packs/items/armors.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "consumables",
+      "label": "Расходники",
+      "system": "daggerheart",
+      "path": "packs/items/consumables.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "loot",
+      "label": "Добыча",
+      "system": "daggerheart",
+      "path": "packs/items/loot.db",
       "type": "Item",
       "private": false,
       "flags": {}
@@ -84,8 +121,9 @@
           "sorting": "m",
           "color": "#000000",
           "packs": [
+            "ancestries",
             "communities",
-            "ancestries"
+            "domains"
           ]
         },
         {
@@ -93,7 +131,10 @@
           "sorting": "m",
           "color": "#000000",
           "packs": [
-            "weapons"
+            "armors",
+            "weapons",
+            "consumables",
+            "loot"
           ]
         }
       ],
