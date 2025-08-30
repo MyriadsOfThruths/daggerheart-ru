@@ -6,3 +6,10 @@
 *.zip
 Thumbs.db
 .DS_Store
+
+packs/**/**/*.ldb
+packs/**/**/*.log
+packs/**/LOCK
+packs/**/LOG
+packs/**/LOG.old
+packs**/lost/**
