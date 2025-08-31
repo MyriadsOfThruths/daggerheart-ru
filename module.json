@@ -2,9 +2,9 @@
   "id": "daggerheart-ru",
   "title": "Daggerheart — Русификация (UI)",
   "description": "Русская локализация интерфейса для системы Daggerheart (Foundryborne).",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "manifest": "https://raw.githubusercontent.com/MyriadsOfThruths/daggerheart-ru/master/module.json",
-  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.5.0/daggerheart-ru.zip",
+  "download": "https://github.com/MyriadsOfThruths/daggerheart-ru/releases/download/v0.5.1/daggerheart-ru.zip",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -25,7 +25,7 @@
         "compatibility": {
           "minimum": "1.1.1",
           "verified": "1.1.2",
-          "maximum": "1.1.3"
+          "maximum": "1.1.5"
         }
       }
     ]
@@ -46,6 +46,24 @@
   ],
   "flags": {},
   "packs": [
+    {
+      "name": "classes",
+      "label": "Классы",
+      "system": "daggerheart",
+      "path": "packs/classes.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "name": "subclasses",
+      "label": "Подклассы",
+      "system": "daggerheart",
+      "path": "packs/subclasses.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
+    },
     {
       "name": "domains",
       "label": "Домены",
@@ -108,6 +126,15 @@
       "type": "Item",
       "private": false,
       "flags": {}
+    },
+    {
+      "name": "beastforms",
+      "label": "Звериные формы",
+      "system": "daggerheart",
+      "path": "packs/beastforms.db",
+      "type": "Item",
+      "private": false,
+      "flags": {}
     }
   ],
   "packFolders": [
@@ -123,7 +150,10 @@
           "packs": [
             "ancestries",
             "communities",
-            "domains"
+            "classes",
+            "subclasses",
+            "domains",
+            "beastforms"
           ]
         },
         {
