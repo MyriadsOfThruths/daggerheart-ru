@@ -41,6 +41,8 @@ Hooks.once("ready", () => {
     const REMAP = new Map([
         ["daggerheart.ancestries", "daggerheart-ru.ancestries"],
         ["daggerheart.domains", "daggerheart-ru.domains"],
+        ["daggerheart.classes", "daggerheart-ru.classes"],
+        ["daggerheart.subclasses", "daggerheart-ru.subclasses"],
         ["daggerheart.communities", "daggerheart-ru.communities"],
         ["daggerheart.weapons", "daggerheart-ru.weapons"],
         ["daggerheart.armors", "daggerheart-ru.armors"],
